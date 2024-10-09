@@ -1,14 +1,14 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #2F2F33;
+  --foreground: #FFFFFF;
   font-family: Inter, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #2F2F33;
+    --foreground: #FFFFFF;
   }
 }
 
