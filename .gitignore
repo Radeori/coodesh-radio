@@ -34,3 +34,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# development
+/src/app/favicon.png
+/src/app/favicon.xcf
+/src/app/favicon_io
