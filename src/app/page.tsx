@@ -6,6 +6,9 @@ import { useState, useEffect } from "react";
 export default function Home() {
   const [radios, setRadios] = useState([]);
   const [favorites, setFavorites] = useState([]);
+  const [sidebarVisible, setSidebarVisible] = useState(true);
+  const [searchHover, setSearchHover] = useState(false);
+  const [searchActive, setSearchActive] = useState(false);
 
   function toggleRadio(radio){
     let favoritesNow = favorites;
@@ -36,9 +39,9 @@ export default function Home() {
   return (
     <div className={"container-fluid " + styles.page}>
       <div className="row">
-        <div className={"col-sm-3 col-md-2 " + styles.sidebar}>
+        <div className={"col-sm-3 col-md-2 " + styles.sidebar + (sidebarVisible ? " visible" : " invisible")}>
           <div className={"nav " + styles.navSidebar + " " + styles.menuNavSidebar}>
-            <div className={styles.menuButton}>
+            <div onClick={() => setSidebarVisible(false)} className={styles.menuButton}>
               <i className={"bi bi-list " + styles.menuIcon}></i>
             </div>
           </div>
@@ -58,13 +61,23 @@ export default function Home() {
             ))}
           </ul>
         </div>
-        <div className={"col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 " + styles.main}>
+        <div className={(sidebarVisible ? "col-sm-9 col-md-10 col-md-offset-2 col-sm-offset-3 " : "col-sm-12 ") + styles.main}>
           <h1 className={"page-header " + styles.pageHeader}>Radio Browser</h1>
           <div className="row">
             <span className={"col-sm-6 " + styles.listHeader}>FAVORITE RADIOS</span>
             <div className={"col-sm-6 " + styles.listSearch}>
-              <i className={"bi bi-search " + styles.listSearchIcon}></i>
-              <span className={styles.listSearchText}>Search stations</span>
+              <i
+                onClick={() => setSidebarVisible(true)}
+                onMouseEnter={() => setSearchHover(true)} onMouseLeave={() => {setSearchHover(false);setSearchActive(false)}}
+                onMouseDown={() => setSearchActive(true)} onMouseUp={() => setSearchActive(false)}
+                className={"bi bi-search " + styles.listSearchIcon + (searchHover ? " " + styles.listSearchHover : "") + (searchActive ? " " + styles.listSearchActive : "")}>
+              </i>
+              <span onClick={() => setSidebarVisible(true)}
+                onMouseEnter={() => setSearchHover(true)} onMouseLeave={() => {setSearchHover(false);setSearchActive(false)}}
+                onMouseDown={() => setSearchActive(true)} onMouseUp={() => setSearchActive(false)}
+                className={styles.listSearchText}>
+                Search stations
+              </span>
             </div>
           </div>
           <ul className={styles.favoriteList}>

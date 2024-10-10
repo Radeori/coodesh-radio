@@ -45,6 +45,7 @@
   min-height: 4em;
   cursor: pointer;
 }
+
 .sidebarRadio:hover {
   filter: brightness(1.5);
 }
@@ -85,6 +86,12 @@
 .menuButton .menuIcon {
   color: #1267FC;
   font-size: 42px;
+}
+.menuIcon:hover {
+  filter: brightness(1.5);
+}
+.menuIcon:active {
+  filter: brightness(2);
 }
 
 .formGroup {
@@ -143,6 +150,13 @@
   color: #1267FC;
   font-size: 28px;
   margin-right: 10px;
+  cursor: pointer;
+}
+.listSearchHover {
+  filter: brightness(1.5);
+}
+.listSearchActive {
+  filter: brightness(2);
 }
 
 .listSearch .listSearchText {
@@ -151,6 +165,10 @@
   font-weight: 400;
   font-size: 16px;
   color: #FFFFFF;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
 }
 
 .favoriteList {
@@ -182,6 +200,9 @@
   height: 48px;
   border-radius: 50px;
   float: right;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .listRadioName {
