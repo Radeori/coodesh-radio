@@ -189,7 +189,7 @@
   background: #62626C;
   backdrop-filter: blur(2px);
   list-style-type: none;
-  height: 5em;
+  min-height: 5em;
   padding-top: 10px;
   margin: 15px 10px;
 }
