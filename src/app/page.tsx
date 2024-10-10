@@ -15,7 +15,14 @@ export default function Home() {
     else{
       favoritesNow.push(radio);
     }
-    setFavorites(favoritesNow);
+    setFavorites([...favoritesNow]);
+  }
+
+  function isFavorite(radio){
+    if(favorites.includes(radio)){
+      return true;
+    }
+    return false;
   }
 
   useEffect(() => { 
@@ -30,7 +37,7 @@ export default function Home() {
     <div className={"container-fluid " + styles.page}>
       <div className="row">
         <div className={"col-sm-3 col-md-2 " + styles.sidebar}>
-          <div className={"nav " + styles.navSidebar}>
+          <div className={"nav " + styles.navSidebar + " " + styles.menuNavSidebar}>
             <div className={styles.menuButton}>
               <i className={"bi bi-list " + styles.menuIcon}></i>
             </div>
@@ -42,22 +49,45 @@ export default function Home() {
           </form>
           <ul className={"nav " + styles.navSidebar}>
             {radios.map((radio) => (
-              <li key={radio.stationuuid} onClick={()=>toggleRadio(radio)}><a href="#"><span>{radio.name}</span></a></li>
+              <li key={radio.stationuuid} onClick={()=>toggleRadio(radio)} className={"row " + styles.sidebarRadio}>
+                <span className={"col-md-10 " + styles.sidebarRadioName}>{radio.name}</span>
+                <div className="col-md-2">
+                  <i className={"bi bi-check " + styles.sidebarRadioCheck + (isFavorite(radio) ? " visible" : " invisible")}></i>
+                </div>
+              </li>
             ))}
           </ul>
         </div>
         <div className={"col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 " + styles.main}>
           <h1 className={"page-header " + styles.pageHeader}>Radio Browser</h1>
           <div className="row">
-            <span className="col-sm-6">Favorite Radios</span>
+            <span className={"col-sm-6 " + styles.listHeader}>FAVORITE RADIOS</span>
             <div className={"col-sm-6 " + styles.listSearch}>
-              <i className="bi bi-search"></i>
-              <span>Search stations</span>
+              <i className={"bi bi-search " + styles.listSearchIcon}></i>
+              <span className={styles.listSearchText}>Search stations</span>
             </div>
           </div>
           <ul className={styles.favoriteList}>
               {favorites.map((radio) => (
-                <li key={radio.stationuuid} className={styles.listRadio}><span>{radio.name}</span></li>
+                <li key={radio.stationuuid} className={styles.listRadio}>
+                  <div className="row">
+                    <div className="col-md-2">
+                      <img className={styles.listRadioFavicon} src={radio.favicon} />
+                      <i className="bi"></i>
+                    </div>
+                    <div className="col-md-8">
+                      <span className={styles.listRadioName}>{radio.name}</span>
+                      <br/>
+                      <span className={styles.listRadioTags}>{radio.tags}</span>
+                    </div>
+                    <div className={"col-md-1 " + styles.listRadioButton}>
+                      <i className={"bi bi-pencil-fill " + styles.listRadioIcon}></i>
+                    </div>
+                    <div className={"col-md-1 " + styles.listRadioButton}>
+                      <i onClick={() => toggleRadio(radio)} className={"bi bi-trash3-fill " + styles.listRadioIcon}></i>
+                    </div>
+                  </div>
+                </li>
               ))}
           </ul>
         </div>
