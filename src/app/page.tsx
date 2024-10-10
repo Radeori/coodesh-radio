@@ -9,11 +9,14 @@ export default function Home() {
   const [sidebarVisible, setSidebarVisible] = useState(true);
   const [searchHover, setSearchHover] = useState(false);
   const [searchActive, setSearchActive] = useState(false);
+  const [pageLoaded, setPageLoaded] = useState(false);
 
   function toggleRadio(radio){
     let favoritesNow = favorites;
-    if(favorites.includes(radio)){
-      favoritesNow.splice(favoritesNow.indexOf(radio), 1);
+    let radioIndex;
+    for(radioIndex = 0; radioIndex < favoritesNow.length && favoritesNow[radioIndex].stationuuid !== radio.stationuuid; radioIndex++);
+    if(radioIndex < favoritesNow.length){
+      favoritesNow.splice(radioIndex, 1);
     }
     else{
       favoritesNow.push(radio);
@@ -22,19 +25,31 @@ export default function Home() {
   }
 
   function isFavorite(radio){
-    if(favorites.includes(radio)){
-      return true;
-    }
-    return false;
+    let radioIndex;
+    for(radioIndex = 0; radioIndex < favorites.length && favorites[radioIndex].stationuuid !== radio.stationuuid; radioIndex++);
+    return radioIndex < favorites.length;
   }
 
-  useEffect(() => { 
+  useEffect(() => {
+    let localFavorites = localStorage.getItem("favorites");
+    if(localFavorites !== null){
+      setFavorites(JSON.parse(localFavorites));
+    }
     fetch("https://de1.api.radio-browser.info/json/stations/search?limit=10")
       .then((res) => res.json())
       .then((data) => {
         setRadios(data);
-      })
+      });
   }, []);
+  
+  useEffect(() => {
+    if(pageLoaded){
+      localStorage.setItem("favorites", JSON.stringify(favorites));
+    }
+    else{
+      setPageLoaded(true);
+    }
+  },[favorites]);
   
   return (
     <div className={"container-fluid " + styles.page}>
