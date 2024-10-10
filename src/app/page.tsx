@@ -10,6 +10,7 @@ export default function Home() {
   const [searchHover, setSearchHover] = useState(false);
   const [searchActive, setSearchActive] = useState(false);
   const [pageLoaded, setPageLoaded] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
 
   function toggleRadio(radio){
     let favoritesNow = favorites;
@@ -30,26 +31,52 @@ export default function Home() {
     return radioIndex < favorites.length;
   }
 
-  useEffect(() => {
-    let localFavorites = localStorage.getItem("favorites");
-    if(localFavorites !== null){
-      setFavorites(JSON.parse(localFavorites));
-    }
-    fetch("https://de1.api.radio-browser.info/json/stations/search?limit=10")
-      .then((res) => res.json())
-      .then((data) => {
-        setRadios(data);
+  function mergeRadios(radioSets){
+    let finalRadioSet = radioSets[0].slice();
+    for(let i=1; i<radioSets.length; i++){
+      radioSets[i].forEach((radio) => {
+        finalRadioSet.some((finalRadio) => finalRadio.stationuuid === radio.stationuuid) ? null : finalRadioSet.push(radio);
       });
-  }, []);
+    }
+    return finalRadioSet;
+  }
   
   useEffect(() => {
     if(pageLoaded){
       localStorage.setItem("favorites", JSON.stringify(favorites));
     }
     else{
+      let localFavorites = localStorage.getItem("favorites");
+      if(localFavorites !== null){
+        setFavorites(JSON.parse(localFavorites));
+      }
       setPageLoaded(true);
     }
   },[favorites]);
+
+  useEffect(() => {
+    const baseUri = "https://de1.api.radio-browser.info/json/stations/search?limit=10";
+    if(searchQuery === ""){
+      fetch(baseUri).then((res) => res.json()).then((data) => {
+        setRadios(data);
+      });
+    }
+    else{
+      const delaySearch = setTimeout(() => {
+        Promise.all([
+          fetch(baseUri+"&name="+searchQuery).then((res) => res.json()),
+          fetch(baseUri+"&country="+searchQuery).then((res) => res.json()),
+          fetch(baseUri+"&countrycode="+searchQuery).then((res) => res.json()),
+          fetch(baseUri+"&language="+searchQuery).then((res) => res.json()),
+          fetch(baseUri+"&tag="+searchQuery).then((res) => res.json())
+        ])
+        .then((datas) => {
+          setRadios(mergeRadios(datas).slice(0,10));
+        })
+      }, 1000);
+      return () => clearTimeout(delaySearch);
+    }
+  },[searchQuery]);
   
   return (
     <div className={"container-fluid " + styles.page}>
@@ -62,7 +89,7 @@ export default function Home() {
           </div>
           <form className={"nav navbar-form " + styles.navSidebar}>
             <div className={"form-group" + styles.formGroup}>
-              <input type="text" className={"form-control " + styles.inputSearch} placeholder="Search here" />
+              <input type="text" onChange={(event) => setSearchQuery(event.target.value)} className={"form-control " + styles.inputSearch} placeholder="Search here" />
             </div>            
           </form>
           <ul className={"nav " + styles.navSidebar}>
@@ -106,7 +133,7 @@ export default function Home() {
                     <div className="col-md-8">
                       <span className={styles.listRadioName}>{radio.name}</span>
                       <br/>
-                      <span className={styles.listRadioTags}>{radio.tags}</span>
+                      <span className={styles.listRadioTags}>{radio.tags.split(",").join(", ")}</span>
                     </div>
                     <div className={"col-md-1 " + styles.listRadioButton}>
                       <i className={"bi bi-pencil-fill " + styles.listRadioIcon}></i>
