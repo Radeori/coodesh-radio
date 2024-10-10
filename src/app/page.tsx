@@ -9,6 +9,7 @@ export default function Home() {
   const [favorites, setFavorites] = useState([]);
   const [radioHover, setRadioHover] = useState("");
   const [playingRadio, setPlayingRadio] = useState(null);
+  const [playingAudio, setPlayingAudio] = useState(null);
   const [sidebarVisible, setSidebarVisible] = useState(true);
   const [searchHover, setSearchHover] = useState(false);
   const [searchActive, setSearchActive] = useState(false);
@@ -74,6 +75,17 @@ export default function Home() {
     }
     return finalRadioSet;
   }
+
+  async function tryToPlay(audioToPlay){
+    try{
+      await audioToPlay.play();
+    }
+    catch(error){
+      console.log(error);
+      setPlayingAudio(null);
+      setPlayingRadio(null);
+    }
+  }
   
   useEffect(() => {
     if(pageLoaded){
@@ -111,6 +123,20 @@ export default function Home() {
       return () => clearTimeout(delaySearch);
     }
   },[searchQuery]);
+
+  useEffect(() => {
+    let localAudio;
+    if(playingAudio !== null){
+      playingAudio.pause();
+      setPlayingAudio(null);
+    }
+    if(playingRadio !== null){
+      localAudio = new Audio(playingRadio.url_resolved);
+      setPlayingAudio(localAudio);
+      tryToPlay(localAudio);
+      
+    }
+  },[playingRadio]);
   
   return (
     <div className={"container-fluid " + styles.page}>
