@@ -4,12 +4,14 @@ import styles from "./page.module.css";
 import { useState, useEffect } from "react";
 
 export default function Home() {
+  const [pageLoaded, setPageLoaded] = useState(false);
   const [radios, setRadios] = useState([]);
   const [favorites, setFavorites] = useState([]);
+  const [radioHover, setRadioHover] = useState("");
+  const [playingRadio, setPlayingRadio] = useState(null);
   const [sidebarVisible, setSidebarVisible] = useState(true);
   const [searchHover, setSearchHover] = useState(false);
   const [searchActive, setSearchActive] = useState(false);
-  const [pageLoaded, setPageLoaded] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
 
   function toggleRadio(radio){
@@ -29,6 +31,38 @@ export default function Home() {
     let radioIndex;
     for(radioIndex = 0; radioIndex < favorites.length && favorites[radioIndex].stationuuid !== radio.stationuuid; radioIndex++);
     return radioIndex < favorites.length;
+  }
+
+  function isHover(radio){
+    return radio.stationuuid === radioHover;
+  }
+
+  function showPlay(radio){
+    if(isHover(radio)){
+      if(playingRadio === null || playingRadio.stationuuid !== radio.stationuuid){
+        return true;
+      }
+    }
+    return false;
+  }
+
+  function showStop(radio){
+    if(playingRadio === null){
+      return false;
+    }
+    if(playingRadio.stationuuid === radio.stationuuid){
+      return true;
+    }
+  }
+
+  function hideFavicon(radio){
+    if(isHover(radio)){
+      return true;
+    }
+    if(playingRadio !== null && playingRadio.stationuuid === radio.stationuuid){
+      return true;
+    }
+    return false;
   }
 
   function mergeRadios(radioSets){
@@ -55,7 +89,7 @@ export default function Home() {
   },[favorites]);
 
   useEffect(() => {
-    const baseUri = "https://de1.api.radio-browser.info/json/stations/search?limit=10";
+    const baseUri = "https://de1.api.radio-browser.info/json/stations/search?limit=10&hidebroken=true";
     if(searchQuery === ""){
       fetch(baseUri).then((res) => res.json()).then((data) => {
         setRadios(data);
@@ -87,7 +121,7 @@ export default function Home() {
               <i className={"bi bi-list " + styles.menuIcon}></i>
             </div>
           </div>
-          <form className={"nav navbar-form " + styles.navSidebar}>
+          <form onSubmit={(event) => event.preventDefault()} className={"nav navbar-form " + styles.navSidebar}>
             <div className={"form-group" + styles.formGroup}>
               <input type="text" onChange={(event) => setSearchQuery(event.target.value)} className={"form-control " + styles.inputSearch} placeholder="Search here" />
             </div>            
@@ -123,27 +157,40 @@ export default function Home() {
             </div>
           </div>
           <ul className={styles.favoriteList}>
-              {favorites.map((radio) => (
-                <li key={radio.stationuuid} className={styles.listRadio}>
-                  <div className="row">
-                    <div className="col-md-2">
-                      <img className={styles.listRadioFavicon} src={radio.favicon} />
-                      <i className="bi"></i>
-                    </div>
-                    <div className="col-md-8">
-                      <span className={styles.listRadioName}>{radio.name}</span>
-                      <br/>
-                      <span className={styles.listRadioTags}>{radio.tags.split(",").join(", ")}</span>
-                    </div>
-                    <div className={"col-md-1 " + styles.listRadioButton}>
-                      <i className={"bi bi-pencil-fill " + styles.listRadioIcon}></i>
-                    </div>
-                    <div className={"col-md-1 " + styles.listRadioButton}>
-                      <i onClick={() => toggleRadio(radio)} className={"bi bi-trash3-fill " + styles.listRadioIcon}></i>
-                    </div>
+            <li className={styles.listRadio + " " + styles.playingRadio}>
+              <div className="row">
+                  <div className={"col-md-2 " + styles.radioFaviconDiv}>
+                    <i onClick={() => setPlayingRadio(null)} className={"bi bi-stop-fill " + styles.playingRadioStopButton + (playingRadio === null ? " invisible" : " visible")}></i>
                   </div>
-                </li>
-              ))}
+                <div className="col-md-10">
+                  <span className={styles.listRadioName}>{playingRadio === null ? "" : playingRadio.name}</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul className={styles.favoriteList}>
+            {favorites.map((radio) => (
+              <li onMouseEnter={() => setRadioHover(radio.stationuuid)} onMouseLeave={() => setRadioHover("")} key={radio.stationuuid} className={styles.listRadio}>
+                <div className="row">
+                  <div className={"col-md-2 " + styles.radioFaviconDiv}>
+                    <img className={styles.listRadioFavicon + (hideFavicon(radio) ? " " + styles.transparentFavicon : "")} src={radio.favicon} />
+                    <i onClick={() => setPlayingRadio(radio)} className={"bi bi-play-fill " + styles.radioPlayButton + (showPlay(radio) ? " visible" : " invisible")}></i>
+                    <i onClick={() => setPlayingRadio(null)} className={"bi bi-stop-fill " + styles.radioStopButton + (showStop(radio) ? " visible" : " invisible")}></i>
+                  </div>
+                  <div className="col-md-8">
+                    <span className={styles.listRadioName}>{radio.name}</span>
+                    <br/>
+                    <span className={styles.listRadioTags}>{radio.tags.split(",").join(", ")}</span>
+                  </div>
+                  <div className={"col-md-1 " + styles.listRadioButton}>
+                    <i className={"bi bi-pencil-fill " + styles.listRadioIcon + (isHover(radio) ? " visible" : " invisible")}></i>
+                  </div>
+                  <div className={"col-md-1 " + styles.listRadioButton}>
+                    <i onClick={() => toggleRadio(radio)} className={"bi bi-trash3-fill " + styles.listRadioIcon + (isHover(radio) ? " visible" : " invisible")}></i>
+                  </div>
+                </div>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

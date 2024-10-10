@@ -176,7 +176,7 @@
   background: #4D4D56;
   border: 1px solid #000000;
   border-radius: 10px;
-  max-height: 80vh;
+  max-height: 65vh;
   overflow: hidden scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -194,15 +194,57 @@
   margin: 15px 10px;
 }
 
+.playingRadio {
+  background: inherit;
+}
+
+.radioFaviconDiv {
+  text-align: right;
+  padding-right: 50px;
+}
+
 .listRadioFavicon {
-  position: relative;
+  position: absolute;
   width: 54px;
   height: 48px;
   border-radius: 50px;
-  float: right;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  z-index: 3;
+}
+
+.transparentFavicon {
+  opacity: 40%;
+}
+
+.radioPlayButton {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  cursor: pointer;
+  color: #000000;
+  font-size: 50px;
+  z-index: 4;
+}
+
+.radioStopButton {
+  position: absolute;
+  top: -10px;
+  right: -2px;
+  cursor: pointer;
+  color: #000000;
+  font-size: 50px;
+  z-index: 4;
+}
+
+.playingRadioStopButton {
+  position: absolute;
+  top: -25px;
+  right: -5px;
+  cursor: pointer;
+  color: #000000;
+  font-size: 60px;
 }
 
 .listRadioName {
