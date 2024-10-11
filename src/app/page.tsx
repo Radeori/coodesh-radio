@@ -203,15 +203,13 @@ export default function Home() {
           <form onSubmit={(event) => event.preventDefault()} className={"nav navbar-form text-center " + styles.navSidebar}>
             <div className={"form-group " + styles.searchFormGroup}>
               <input type="text" onChange={(event) => setSearchQuery(event.target.value)} className={"form-control " + styles.inputSearch} placeholder="Search here" />
-            </div>            
+            </div>
           </form>
           <ul className={"nav " + styles.navSidebar}>
             {radios.map((radio) => (
               <li key={radio.stationuuid} onClick={()=>toggleRadio(radio)} className={"row " + styles.sidebarRadio}>
                 <span className={"col-xs-10 " + styles.sidebarRadioName}>{radio.name}</span>
-                <div className="col-xs-2">
-                  <i className={"bi bi-check " + styles.sidebarRadioCheck + (isFavorite(radio) ? " visible" : " invisible")}></i>
-                </div>
+                <i className={"col-xs-2 bi bi-check " + styles.sidebarRadioCheck + (isFavorite(radio) ? " visible" : " invisible")}></i>
               </li>
             ))}
           </ul>

@@ -37,6 +37,7 @@
   margin: 10px 10px;
   min-height: 4em;
   cursor: pointer;
+  align-content: center;
 }
 
 .sidebarRadio:hover {
@@ -53,13 +54,12 @@
   font-size: 16px;
   color: #FFFFFF;
   backdrop-filter: blur(2px);
-  padding-top: 16px;
-  padding-right: 0px;
 }
 
 .sidebarRadioCheck {
   position: absolute;
-  left: 0;
+  left: calc(100% - 6rem);
+  top: 0%;
   color: #1267FC;
   font-size: 42px;;
 }
