@@ -9,6 +9,9 @@ export default function Home() {
   const [favorites, setFavorites] = useState([]);
   const [radioHover, setRadioHover] = useState("");
   const [playingRadio, setPlayingRadio] = useState(null);
+  const [editingRadio, setEditingRadio] = useState(null);
+  const [editingName, setEditingName] = useState(null);
+  const [editingTags, setEditingTags] = useState(null);
   const [playingAudio, setPlayingAudio] = useState(null);
   const [sidebarVisible, setSidebarVisible] = useState(true);
   const [searchHover, setSearchHover] = useState(false);
@@ -16,7 +19,7 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
 
   function toggleRadio(radio){
-    let favoritesNow = favorites;
+    let favoritesNow = [...favorites];
     let radioIndex;
     for(radioIndex = 0; radioIndex < favoritesNow.length && favoritesNow[radioIndex].stationuuid !== radio.stationuuid; radioIndex++);
     if(radioIndex < favoritesNow.length){
@@ -66,6 +69,25 @@ export default function Home() {
     return false;
   }
 
+  function startEditingRadio(radio){
+    setEditingRadio(radio);
+    setEditingName(radio.name);
+    setEditingTags(radio.tags);
+  }
+
+  function submitEdit(event){
+    event.preventDefault();
+    let favoritesNow = [...favorites];
+    let radioIndex;
+    for(radioIndex = 0; radioIndex < favoritesNow.length && favoritesNow[radioIndex].stationuuid !== editingRadio.stationuuid; radioIndex++);
+    if(radioIndex < favoritesNow.length){
+      favoritesNow[radioIndex].name = editingName;
+      favoritesNow[radioIndex].tags = editingTags;
+      setFavorites([...favoritesNow]);
+    }
+    setEditingRadio(null);
+  }
+
   function mergeRadios(radioSets){
     let finalRadioSet = radioSets[0].slice();
     for(let i=1; i<radioSets.length; i++){
@@ -89,6 +111,10 @@ export default function Home() {
   
   useEffect(() => {
     if(pageLoaded){
+      if(JSON.parse(localStorage.getItem("favorites")).length < favorites.length){
+        const favoritesDiv = document.getElementById("favoritesDiv");
+        favoritesDiv.scrollTo(0, favoritesDiv.scrollHeight);
+      }
       localStorage.setItem("favorites", JSON.stringify(favorites));
     }
     else{
@@ -194,7 +220,7 @@ export default function Home() {
               </div>
             </li>
           </ul>
-          <ul className={styles.favoriteList}>
+          <ul id="favoritesDiv" className={styles.favoriteList}>
             {favorites.map((radio) => (
               <li onMouseEnter={() => setRadioHover(radio.stationuuid)} onMouseLeave={() => setRadioHover("")} key={radio.stationuuid} className={styles.listRadio}>
                 <div className="row">
@@ -204,12 +230,30 @@ export default function Home() {
                     <i onClick={() => setPlayingRadio(null)} className={"bi bi-stop-fill " + styles.radioStopButton + (showStop(radio) ? " visible" : " invisible")}></i>
                   </div>
                   <div className="col-md-8">
-                    <span className={styles.listRadioName}>{radio.name}</span>
-                    <br/>
-                    <span className={styles.listRadioTags}>{radio.tags.split(",").join(", ")}</span>
+                    <form onSubmit={submitEdit}>
+                      <div className="form-group">
+                        <span className={styles.listRadioName + (editingRadio === null || editingRadio.stationuuid !== radio.stationuuid ? "" : " hidden")}>
+                          {radio.name}
+                        </span>
+                        <input type="text" defaultValue={radio.name.trim()}
+                        onChange={(event) => setEditingName(event.target.value)}
+                        onKeyDown={(event) => event.code === "Enter" ? submitEdit(event) : null}
+                        className={"form-control " + styles.listRadioName + (editingRadio !== null && radio.stationuuid === editingRadio.stationuuid ? "" : " hidden")}>
+                        </input>
+                        <br/>
+                        <span className={styles.listRadioTags + (editingRadio === null || editingRadio.stationuuid !== radio.stationuuid ? "" : " hidden")}>
+                          {radio.tags.split(",").join(", ")}
+                        </span>
+                        <input type="text" defaultValue={radio.tags}
+                        onChange={(event) => setEditingTags(event.target.value)}
+                        onKeyDown={(event) => event.code === "Enter" ? submitEdit(event) : null}
+                        className={"form-control " + styles.listRadioTags + (editingRadio !== null && radio.stationuuid === editingRadio.stationuuid ? "" : " hidden")}>
+                        </input>
+                      </div>
+                    </form>
                   </div>
                   <div className={"col-md-1 " + styles.listRadioButton}>
-                    <i className={"bi bi-pencil-fill " + styles.listRadioIcon + (isHover(radio) ? " visible" : " invisible")}></i>
+                    <i onClick={() => startEditingRadio(radio)} className={"bi bi-pencil-fill " + styles.listRadioIcon + (isHover(radio) ? " visible" : " invisible")}></i>
                   </div>
                   <div className={"col-md-1 " + styles.listRadioButton}>
                     <i onClick={() => toggleRadio(radio)} className={"bi bi-trash3-fill " + styles.listRadioIcon + (isHover(radio) ? " visible" : " invisible")}></i>
