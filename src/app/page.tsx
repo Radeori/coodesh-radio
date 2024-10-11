@@ -38,7 +38,8 @@ export default function Home() {
   }
 
   function isHover(radio){
-    return radio.stationuuid === radioHover;
+    var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    return radio.stationuuid === radioHover || width < 576;
   }
 
   function showPlay(radio){
@@ -167,32 +168,32 @@ export default function Home() {
   return (
     <div className={"container-fluid " + styles.page}>
       <div className="row">
-        <div className={"col-sm-3 col-md-2 " + styles.sidebar + (sidebarVisible ? " visible" : " invisible")}>
+        <div className={"col-xs-12 col-sm-3 " + styles.sidebar + (sidebarVisible ? " visible" : " invisible")}>
           <div className={"nav " + styles.navSidebar + " " + styles.menuNavSidebar}>
             <div onClick={() => setSidebarVisible(false)} className={styles.menuButton}>
               <i className={"bi bi-list " + styles.menuIcon}></i>
             </div>
           </div>
-          <form onSubmit={(event) => event.preventDefault()} className={"nav navbar-form " + styles.navSidebar}>
-            <div className={"form-group" + styles.formGroup}>
+          <form onSubmit={(event) => event.preventDefault()} className={"nav navbar-form text-center " + styles.navSidebar}>
+            <div className={"form-group " + styles.formGroup}>
               <input type="text" onChange={(event) => setSearchQuery(event.target.value)} className={"form-control " + styles.inputSearch} placeholder="Search here" />
             </div>            
           </form>
           <ul className={"nav " + styles.navSidebar}>
             {radios.map((radio) => (
               <li key={radio.stationuuid} onClick={()=>toggleRadio(radio)} className={"row " + styles.sidebarRadio}>
-                <span className={"col-md-10 " + styles.sidebarRadioName}>{radio.name}</span>
-                <div className="col-md-2">
+                <span className={"col-xs-10 " + styles.sidebarRadioName}>{radio.name}</span>
+                <div className="col-xs-2">
                   <i className={"bi bi-check " + styles.sidebarRadioCheck + (isFavorite(radio) ? " visible" : " invisible")}></i>
                 </div>
               </li>
             ))}
           </ul>
         </div>
-        <div className={(sidebarVisible ? "col-sm-9 col-md-10 col-md-offset-2 col-sm-offset-3 " : "col-sm-12 ") + styles.main}>
+        <div className={(sidebarVisible ? "col-xs-12 col-sm-9 col-sm-offset-3 " : "col-sm-12 ") + styles.main}>
           <h1 className={"page-header " + styles.pageHeader}>Radio Browser</h1>
           <div className="row">
-            <span className={"col-sm-6 " + styles.listHeader}>FAVORITE RADIOS</span>
+            <span className={"col-xs-12 col-sm-6 " + styles.listHeader}>FAVORITE RADIOS</span>
             <div className={"col-sm-6 " + styles.listSearch}>
               <i
                 onClick={() => setSidebarVisible(true)}
@@ -203,7 +204,7 @@ export default function Home() {
               <span onClick={() => setSidebarVisible(true)}
                 onMouseEnter={() => setSearchHover(true)} onMouseLeave={() => {setSearchHover(false);setSearchActive(false)}}
                 onMouseDown={() => setSearchActive(true)} onMouseUp={() => setSearchActive(false)}
-                className={styles.listSearchText}>
+                className={"hidden-xs " + styles.listSearchText}>
                 Search stations
               </span>
             </div>
@@ -211,10 +212,10 @@ export default function Home() {
           <ul className={styles.favoriteList}>
             <li className={styles.listRadio + " " + styles.playingRadio}>
               <div className="row">
-                  <div className={"col-md-2 " + styles.radioFaviconDiv}>
-                    <i onClick={() => setPlayingRadio(null)} className={"bi bi-stop-fill " + styles.playingRadioStopButton + (playingRadio === null ? " invisible" : " visible")}></i>
-                  </div>
-                <div className="col-md-10">
+                <div className={"col-xs-2 " + styles.radioFaviconDiv}>
+                  <i onClick={() => setPlayingRadio(null)} className={"bi bi-stop-fill " + styles.playingRadioStopButton + (playingRadio === null ? " invisible" : " visible")}></i>
+                </div>
+                <div className="col-xs-10 col-xs-offset-2">
                   <span className={styles.listRadioName}>{playingRadio === null ? "" : playingRadio.name}</span>
                 </div>
               </div>
@@ -224,12 +225,12 @@ export default function Home() {
             {favorites.map((radio) => (
               <li onMouseEnter={() => setRadioHover(radio.stationuuid)} onMouseLeave={() => setRadioHover("")} key={radio.stationuuid} className={styles.listRadio}>
                 <div className="row">
-                  <div className={"col-md-2 " + styles.radioFaviconDiv}>
+                  <div className={"col-xs-2 " + styles.radioFaviconDiv}>
                     <img className={styles.listRadioFavicon + (hideFavicon(radio) ? " " + styles.transparentFavicon : "")} src={radio.favicon} />
                     <i onClick={() => setPlayingRadio(radio)} className={"bi bi-play-fill " + styles.radioPlayButton + (showPlay(radio) ? " visible" : " invisible")}></i>
                     <i onClick={() => setPlayingRadio(null)} className={"bi bi-stop-fill " + styles.radioStopButton + (showStop(radio) ? " visible" : " invisible")}></i>
                   </div>
-                  <div className="col-md-8">
+                  <div className="col-xs-6 col-sm-8">
                     <form onSubmit={submitEdit}>
                       <div className="form-group">
                         <span className={styles.listRadioName + (editingRadio === null || editingRadio.stationuuid !== radio.stationuuid ? "" : " hidden")}>
@@ -252,10 +253,10 @@ export default function Home() {
                       </div>
                     </form>
                   </div>
-                  <div className={"col-md-1 " + styles.listRadioButton}>
+                  <div className={"col-xs-2 col-sm-1 " + styles.listRadioButton}>
                     <i onClick={() => startEditingRadio(radio)} className={"bi bi-pencil-fill " + styles.listRadioIcon + (isHover(radio) ? " visible" : " invisible")}></i>
                   </div>
-                  <div className={"col-md-1 " + styles.listRadioButton}>
+                  <div className={"col-xs-2 col-sm-1 " + styles.listRadioButton}>
                     <i onClick={() => toggleRadio(radio)} className={"bi bi-trash3-fill " + styles.listRadioIcon + (isHover(radio) ? " visible" : " invisible")}></i>
                   </div>
                 </div>
