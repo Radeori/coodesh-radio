@@ -249,6 +249,13 @@
   font-size: 60px;
 }
 
+.radioPlayButton:hover, .radioStopButton:hover, .playingRadioStopButton:hover {
+  filter: invert(10%);
+}
+.radioPlayButton:active, .radioStopButton:active, .playingRadioStopButton:active {
+  filter: invert(20%);
+}
+
 .listRadioName {
   background: inherit;
   font-family: 'Inter';
@@ -284,4 +291,10 @@
   cursor: pointer;
   color: #000000;
   font-size: 30px;
+}
+.listRadioIcon:hover {
+  filter: invert(15%);
+}
+.listRadioIcon:active {
+  filter: invert(30%);
 }
