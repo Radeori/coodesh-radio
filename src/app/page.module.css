@@ -89,8 +89,9 @@
   filter: brightness(2);
 }
 
-.formGroup {
-  width: 30vh;
+.searchFormGroup {
+  width: calc(30vh + 7vw);
+  max-width: 100%;
   margin: auto;
 }
 
@@ -246,6 +247,7 @@
 }
 
 .listRadioName {
+  background: inherit;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -255,6 +257,7 @@
 }
 
 .listRadioTags {
+  background: inherit;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -264,11 +267,11 @@
 }
 
 .listRadioButton {
+  padding: 0px;
   margin-top: 5px;
 }
 @media (max-width: 576px) {
   .listRadioButton {
-    padding: 0px;
     margin-left: 20px;
     width: fit-content;
   }
