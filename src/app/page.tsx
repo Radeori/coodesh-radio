@@ -134,7 +134,6 @@ export default function Home() {
       await audioToPlay.play();
     }
     catch(error){
-      console.log(error);
       setPlayingAudio(null);
       setPlayingRadio(null);
     }
