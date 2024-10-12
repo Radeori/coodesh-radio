@@ -4,8 +4,9 @@ import styles from "./page.module.css";
 import { useState, useEffect } from "react";
 
 export default function Home() {
-  const [pageLoaded, setPageLoaded] = useState(false);
+  const [appLoaded, setAppLoaded] = useState(false);
   const [radios, setRadios] = useState([]);
+  const [pagedRadios, setPagedRadios] = useState([]);
   const [favorites, setFavorites] = useState([]);
   const [radioHover, setRadioHover] = useState("");
   const [playingRadio, setPlayingRadio] = useState(null);
@@ -18,6 +19,9 @@ export default function Home() {
   const [searchHover, setSearchHover] = useState(false);
   const [searchActive, setSearchActive] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const [pageIndex, setPageIndex] = useState(1);
+  const [maxPages, setMaxPages] = useState(1);
+  const PAGE_LIMIT = 10;
 
   function toggleRadio(radio){
     let favoritesNow = [...favorites];
@@ -137,7 +141,7 @@ export default function Home() {
   }
   
   useEffect(() => {
-    if(pageLoaded){
+    if(appLoaded){
       if(JSON.parse(localStorage.getItem("favorites")).length < favorites.length){
         const favoritesDiv = document.getElementById("favoritesDiv");
         favoritesDiv.scrollTo(0, favoritesDiv.scrollHeight);
@@ -149,15 +153,17 @@ export default function Home() {
       if(localFavorites !== null){
         setFavorites(JSON.parse(localFavorites));
       }
-      setPageLoaded(true);
+      setAppLoaded(true);
     }
   },[favorites]);
 
   useEffect(() => {
-    const baseUri = "https://de1.api.radio-browser.info/json/stations/search?limit=10&hidebroken=true";
+    const baseUri = "https://de1.api.radio-browser.info/json/stations/search?hidebroken=true";
     if(searchQuery === ""){
       fetch(baseUri).then((res) => res.json()).then((data) => {
         setRadios(data);
+        setMaxPages(Math.ceil(data.length/PAGE_LIMIT));
+        setPagedRadios(data.slice(0,PAGE_LIMIT));
       });
     }
     else{
@@ -170,12 +176,20 @@ export default function Home() {
           fetch(baseUri+"&tag="+searchQuery).then((res) => res.json())
         ])
         .then((datas) => {
-          setRadios(mergeRadios(datas).slice(0,10));
+          const fetchRadios = mergeRadios(datas);
+          setRadios(fetchRadios);
+          setMaxPages(Math.ceil(fetchRadios.length/PAGE_LIMIT));
+          setPagedRadios(fetchRadios.slice(0,PAGE_LIMIT));
         })
       }, 1000);
       return () => clearTimeout(delaySearch);
     }
+    setPageIndex(1);
   },[searchQuery]);
+
+  useEffect(() => {
+    setPagedRadios(radios.slice((pageIndex-1)*PAGE_LIMIT,PAGE_LIMIT*pageIndex));
+  },[pageIndex]);
 
   useEffect(() => {
     let localAudio;
@@ -206,12 +220,19 @@ export default function Home() {
             </div>
           </form>
           <ul className={"nav " + styles.navSidebar}>
-            {radios.map((radio) => (
+            {pagedRadios.map((radio) => (
               <li key={radio.stationuuid} onClick={()=>toggleRadio(radio)} className={"row " + styles.sidebarRadio}>
                 <span className={"col-xs-10 " + styles.sidebarRadioName}>{radio.name}</span>
                 <i className={"col-xs-2 bi bi-check " + styles.sidebarRadioCheck + (isFavorite(radio) ? " visible" : " invisible")}></i>
               </li>
             ))}
+            <li className={"row " + styles.sidebarPagingDiv}>
+              <i onClick={() => setPageIndex(1)} className={"col-xs-2 bi bi-box-arrow-in-left " + styles.sidebarPagingIcon}></i>
+              <i onClick={() => pageIndex > 1 ? setPageIndex(pageIndex-1) : null} className={"col-xs-2 bi bi-arrow-left-short " + styles.sidebarPagingIcon}></i>
+              <span className={"col-xs-4 " + styles.sidebarPagingInfo}>{pageIndex}/{maxPages}</span>
+              <i onClick={() => pageIndex < maxPages ? setPageIndex(pageIndex+1) : null} className={"col-xs-2 bi bi-arrow-right-short " + styles.sidebarPagingIcon}></i>
+              <i onClick={() => setPageIndex(maxPages)} className={"col-xs-2 bi bi-box-arrow-in-right " + styles.sidebarPagingIcon}></i>
+            </li>
           </ul>
         </div>
         <div className={(sidebarVisible ? "col-xs-12 col-sm-9 col-sm-offset-3 " : "col-sm-12 ") + styles.main}>
