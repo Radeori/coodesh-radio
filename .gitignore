@@ -40,3 +40,8 @@ next-env.d.ts
 /src/app/favicon.xcf
 /src/app/favicon_io
 /examples
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

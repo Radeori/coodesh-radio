@@ -1,10 +1,9 @@
 # Coodesh Radio
-
 >  This is a challenge by [Coodesh](https://coodesh.com/)
+
 Este é um desafio por [Coodesh](https://coodesh.com/) (em tradução livre)
 
 ## Descrição
-
 O presente repositório é um projeto de Rádio Online, em que estações são carregadas a partir de uma API e podem ser filtradas e reproduzidas.
 
 ## Tecnologias utilizadas
@@ -32,6 +31,7 @@ npm run dev
     * Confirmação do formulário pode ser feita ao pressionar a tecla Enter ou NumpadEnter, ao tirar a seleção dos campos de texto ou clicar no botão com ícone de prancheta.
 * Seguindo integridade com Bootstrap, padronizou-se que qualquer visualidade ou interatividade própria de aparelhos móveis seria disponibilizada no caso da largura da tela ser inferior a 576px.
 * Julgando o conjunto de dados da API como pequeno, a paginação foi feita localmente, com a possibilidade de pular para a última página a qualquer momento.
+
 ### Diário de mudanças e decisões
 ### 04/10/2024 - Initial commit (Commit inicial)
 ##### Changelog
@@ -43,10 +43,12 @@ npm run dev
 
 Em tradução livre:
 React Framework para Web. Usado por algumas das maiores empresas do mundo, Next.js permite que você crie aplicações Web de alta qualidade com o poder de componentes React.
+
 ### 08/10/2024 - Inicializado app com Next.js padrão
 ##### Changelog
 * `npx coodesh-radio@latest` - criação de aplicação Next.js básica
 * Primeira versão deste `README.md`
+
 ### 08/10/2024 - Iniciada criação da aplicação a partir do Next.js
 ##### Changelog
 * Desenhado e aplicado favicon próprio
@@ -54,6 +56,7 @@ React Framework para Web. Usado por algumas das maiores empresas do mundo, Next.
 * Alterada fonte padrão para Inter
 ##### Decisões
 * Desde a escolha da fonte padrão Inter (amplamente utilizada na aplicação Figma), decidiu-se seguir ao máximo o [design apresentado](https://www.figma.com/design/TDuhDdbwdzIVQjNV3GF9Qi/Radio?node-id=0-1&node-type=canvas&t=OcoUJYt2kTyTRN1q-0) na descrição do desafio.
+
 ### 09/10/2024 - Adicionado fetch da api
 ##### Changelog
 * Adicionada sidebar
@@ -63,11 +66,13 @@ React Framework para Web. Usado por algumas das maiores empresas do mundo, Next.
 * Estilizada página para se parecer com o wireframe de referência
 ##### Decisões
 * Pela aplicação contar com apenas umas página, optou-se por também unificar a utilização de arquivos específicos por linguagem durante a fase de desenvolvimento. Espera-se muitas alterações inespecíficas no código e essa escolha visa reduzir o esforço empenhado em realizar essas alterações.
+
 ### 09/10/2024 - Atualizado README
 ##### Changelog
 * Alterado arquivo `README.md` para uma versão MVP (mínimo produto viável, em tradução do inglês)
 ##### Decisões
 * Aproxima-se o prazo de entrega previsto e fez-se necessário viabilizar essa entrega. O que foi feito com a atualização do único requisito que estava atrasado.
+
 ### 10/10/2024 - Finalizado desenho desktop da página
 ##### Changelog
 * Implementadas rolagens separadas para sidebar e lista de estações favoritas
@@ -75,6 +80,7 @@ React Framework para Web. Usado por algumas das maiores empresas do mundo, Next.
 * Incrementados elementos da seção principal para tornar a apresentação ainda mais parecida com o disposto no design de referência
 * Adicionado botão com ícone de lixeira, criando mais um fluxo possível para remover a estação da lista de favoritas (antes possível apenas pela sidebar, com um clique "liga/desliga")
 * Adicionado botão de edição para futura e prevista implementação
+
 ### 10/10/2024 - Adicionada função de abrir e fechar sidebar
 ##### Changelog
 * Adicionada mudança de cursor e interação gráfica nos botões de abrir/fechar sidebar
@@ -82,11 +88,13 @@ React Framework para Web. Usado por algumas das maiores empresas do mundo, Next.
 ##### Decisões
 * Interpretativamente, a lógica de visualização da sidebar girou em torno dos botões azuis do wireframe apresentado. Como, na versão mobile, o botão da lupa ocupa o mesmo espaço do botão de menu, com a diferença do conteúdo apresentado no resto da tela, fez-se com que cada um deles mudasse essa apresentação.
 Mantendo a integridade, a versão desktop seguiu a mesma lógica, com diferença no posicionamento dos botões e no fato de que o botão de abrir a sidebar é composto pela lupa e pelo texto "Search stations".
+
 ### 10/10/2024 - Adicionado localStorage para salvar os favoritos
 ##### Changelog
 * Adicionada persistência da lista de favoritos utilizando o localStorage
 ##### Decisões
 * Dado o requisito de salvar as informações de utilização da aplicação, escolheu-se o localStorage por ser uma solução nativa e simples de implementar.
+
 ### 10/10/2024 - Implementada busca
 ##### Changelog
 * Adicionada função de buscar estações de rádio para preencher a sidebar até o máximo de 10 registros
@@ -95,17 +103,20 @@ Mantendo a integridade, a versão desktop seguiu a mesma lógica, com diferença
 * De forma prática, o filtro é incremental entre: nome da rádio, nome do país, código do país, idioma e tags. Em que os resultados são combinados e mantêm-se exibindo apenas os 10 primeiros.
 * O primeiro critério de ordenação é o pertencimento a cada um dos filtros acima, respectivamente. O critério de desempate é a própria ordenação da API, descrita como multifatorial.
 * Buscando fidelidade ao wireframe, não se fez possível customizar nem ordenação nem filtro ao utilizar a presente aplicação.
+
 ### 10/10/2024 - Feita interface para iniciar e parar de tocar rádio
 ##### Changelog
 * Adicionado espaço para exibir qual estação é reproduzida
 * Adicionado botão de play, que esmaece e fica em cima do ícone da rádio enquanto o ponteiro do mouse sobrevoa qualquer parte das informações da estação favorita
 * Adicionado botão de stop, para alternar com o botão de play de acordo com qual estação é reproduzida
 * Adicionada interação de play/stop, ainda sem efetivamente reproduzir qualquer som
+
 ### 10/10/2024 - Adicionada função de efetivamente iniciar som das radios
 ##### Changelog
 * Implementada reprodução de áudio a partir da url da estação selecionada para tal
 ##### Decisões
 * Optou-se novamente por uma solução nativa, utilizando a classe Audio.
+
 ### 10/10/2024 - Adicionada função de editar rádio da lista de favoritas
 ##### Changelog
 * Adicionada função de habilitar edição de nome e tags de estação favorita ao clicar no botão com ícone de lápis
@@ -114,6 +125,7 @@ Mantendo a integridade, a versão desktop seguiu a mesma lógica, com diferença
 ##### Decisões
 * Atendendo ao requisito de editar informações de uma rádio, implementou-se um formulário, com os campos de nome e tags, que aparece no lugar em que antes havia tais informações consolidadas.
 * Focando, por ora, na versão da aplicação para desktop, decidiu-se que a confirmação do formulário acontece ao pressionar a tecla Enter.
+
 ### 11/10/2024 - Ajustado estilo para melhor responsividade no mobile
 ##### Changelog
 * Alteradas medidas de elementos (e suas unidades) para manter a visualização desejada entre diferentes tamanhos de tela
@@ -123,11 +135,13 @@ Mantendo a integridade, a versão desktop seguiu a mesma lógica, com diferença
 ##### Decisões
 * Para manter a integridade com as classes bootstrap, definiu-se para toda a aplicação que seria considerado aparelho móvel qualquer tela com largura menor que 576px.
 * Diferente do que foi apresentado na proposta do desafio, decidiu-se que a lista de estações favoritas mostrasse o tempo todo, na versão mobile, não só o botão de remoção, como o de edição e play também.
+
 ### 11/10/2024 - Aprimorada edição das rádios favoritas
 ##### Changelog
 * Adicionado fluxos alternativos para confirmar formulário de edição baseados em tirar a seleção do mesmo
 ##### Decisões
 * Considerando a experiência mobile e diferentes tipos de utilizadores, o formulário de edição agora pode ser confirmado clicando em um (novo) botão de confirmação ou simplemente clicando fora de qualquer um dos campos (nome ou tags).
+
 ### 12/10/2024 - Adicionada paginação na busca de estações
 ##### Changelog
 * Adicionada interface de paginação abaixo da lista de estações buscadas
