@@ -255,7 +255,7 @@ export default function Home() {
               </span>
             </div>
           </div>
-          <ul className={styles.favoriteList}>
+          <ul className={styles.favoriteList + " " + styles.playingRadioDiv}>
             <li className={styles.listRadio + " " + styles.playingRadio}>
               <div className="row">
                 <div className={"col-xs-2 " + styles.radioFaviconDiv}>
