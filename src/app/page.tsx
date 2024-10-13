@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 import { useState, useEffect } from "react";
 
 export default function Home() {
-  const [appLoaded, setAppLoaded] = useState(false);
+  const [favoritesLoaded, setFavoritesLoaded] = useState(false);
   const [radios, setRadios] = useState([]);
   const [pagedRadios, setPagedRadios] = useState([]);
   const [favorites, setFavorites] = useState([]);
@@ -140,8 +140,8 @@ export default function Home() {
   }
   
   useEffect(() => {
-    if(appLoaded){
-      if(JSON.parse(localStorage.getItem("favorites")).length < favorites.length){
+    if(favoritesLoaded){
+      if(localStorage.getItem("favorites") !== null && JSON.parse(localStorage.getItem("favorites")).length < favorites.length){
         const favoritesDiv = document.getElementById("favoritesDiv");
         favoritesDiv.scrollTo(0, favoritesDiv.scrollHeight);
       }
@@ -152,7 +152,7 @@ export default function Home() {
       if(localFavorites !== null){
         setFavorites(JSON.parse(localFavorites));
       }
-      setAppLoaded(true);
+      setFavoritesLoaded(true);
     }
   },[favorites]);
 

@@ -1,0 +1,3570 @@
+[
+    {
+        "stationuuid": "41573edb-8733-472d-a0e7-0d0d373b22fe",
+        "name": "Antena - 102.5 FM - XHES-FM - GRD Multimedia - Chihuahua, Chihuahua",
+        "tags": "102.5 fm,américa,antena,chihuahua,chihuahua city,entretenimiento,español,estación,fm,grd multimedia,hablada,latinoamérica,moi merino,méxico,norteamérica,noticias,noticias en español,noticias locales,noticias nacionales e internacionales,noticias y comentarios,radio,radio hablada,tv",
+        "country": "Mexico",
+        "countrycode": "MX",
+        "language": ""
+    },
+    {
+        "stationuuid": "130f2f04-03b7-4e63-9edb-77c018665189",
+        "name": "Antena - 102.5 FM [Chihuahua, Chihuahua]",
+        "tags": "music,news,talk & speech",
+        "country": "Mexico",
+        "countrycode": "MX",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "5446bdeb-b081-413d-9552-42f1b16048b7",
+        "name": "Antena 1",
+        "tags": "talk & speech",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "b8999692-0fba-4660-8934-c74167efc9e0",
+        "name": "Antena 1  - Porto Alegre",
+        "tags": "",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "fd6b0dc7-1684-4677-8a63-0c28d988c4b0",
+        "name": "Antena 1 - Main",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "b16ffbfa-3dbc-472f-b058-5b9daa21cef7",
+        "name": "Antena 1 (Portugal)",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "0bb91b7b-fd13-487f-b645-87f6d6d7b4d2",
+        "name": "Antena 1 (Portugal)",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "909735da-70e8-4527-b771-52793d9f0086",
+        "name": "Antena 1 (Portugal)",
+        "tags": "live sports,musica,talk & speech",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "dbc018ae-1848-4f26-a677-367011a1f4b2",
+        "name": "Antena 1 (Portugal)",
+        "tags": "portugal,portuguese,sports",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "8267a9f9-e776-4b59-90e5-1179dfe1ad40",
+        "name": "Antena 1 (Portugal)",
+        "tags": "news,sports,talk",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "56e49d2c-13df-430a-a325-37a639c18f10",
+        "name": "Antena 1 91.5 FM",
+        "tags": "entretenimiento,latino,música variada,pop,reggaeton",
+        "country": "Argentina",
+        "countrycode": "AR",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "326c6f7c-08d6-49da-9a4b-a6a634e77e3f",
+        "name": "Antena 1 Açores (Portugal)",
+        "tags": "acores,antena 1,antena 1 açores,azores,açores,local news,noticias,portugal,rdp,rdp açores",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "bf4e9e0e-6b72-46c3-aafe-b57eb8fcfe23",
+        "name": "Antena 1 Fado",
+        "tags": "fado",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "4534dd5f-b22a-11e8-afe1-52543be04c81",
+        "name": "Antena 1 FM 103.7 Rio de Janeiro",
+        "tags": "adult contemporary,lite",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "531fced7-b22b-11e8-afe1-52543be04c81",
+        "name": "Antena 1 FM 94.7 São Paulo",
+        "tags": "adult contemporary,lite",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "29489790-0b8a-47d7-9b9d-630ebd9934fd",
+        "name": "Antena 1 Madeira (Portugal)",
+        "tags": "antena 1 madeira,madeira,news talk,notícias,rdp,rdp madeira,rtp",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "7f194817-28a2-419b-b40d-52c406679b19",
+        "name": "Antena 1 Memória (Portugal)",
+        "tags": "archive,culture,music,oldies,talk",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "1b1e7945-7a9e-4f53-9d41-6ca26781ab8f",
+        "name": "Antena 1 Memória (Portugal)",
+        "tags": "antena 1,antena 1 memoria,rdp,rtp",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "27ba8003-6635-4144-9b40-eb496e2d4120",
+        "name": "Antena 1 Porto Alegre ",
+        "tags": "rock romântico",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "português  brasil"
+    },
+    {
+        "stationuuid": "614fcc1d-460b-4f30-abe2-8eb9037d1470",
+        "name": "Antena 1 radio",
+        "tags": "music,musica,música variada,variado,various",
+        "country": "Argentina",
+        "countrycode": "AR",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "e7599368-1801-11e8-ae97-52543be04c81",
+        "name": "Antena 1 Rio de Janeiro, RJ (ZYD 463, 103,7 MHz FM)",
+        "tags": "adult contemporary,brazilian music,jazz,pop,smooth jazz",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "963fa65f-0601-11e8-ae97-52543be04c81",
+        "name": "Antena 1 São Paulo, SP (ZYD823 94,7 MHz FM) [aac]",
+        "tags": "adult contemporary,jazz,pop,smooth jazz",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "17607eae-7873-4ad6-b3b3-01dbcd44be83",
+        "name": "Antena 1 Vida",
+        "tags": "antena 1,rdp,rtp",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "033bc3a2-10c6-4946-bccf-b738878863cb",
+        "name": "Antena 2 - Main",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "60f9ae91-af89-4a97-980d-5ead2a654c3e",
+        "name": "Antena 2 (AAC)",
+        "tags": "classical",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "20f7728c-1d68-47ba-8f5a-b3627f8354b7",
+        "name": "Antena 2 (AAC)",
+        "tags": "classical",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "abdacbd3-4a0a-452b-8247-cff72abb464e",
+        "name": "Antena 2 (Portugal)",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "bf7a7180-2465-48d2-983c-3bc182ba0c83",
+        "name": "Antena 2 (Portugal)",
+        "tags": "classical",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "005be201-4330-49e0-b827-8cb9a5a12a4a",
+        "name": "Antena 2 (Portugal)",
+        "tags": "classical,culture,music",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "e7c49a9e-9716-49a0-b886-6a541c2919ce",
+        "name": "Antena 2 (Portugal)",
+        "tags": "classical,culture,music",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "736f5597-3451-47f1-b0ac-f32fb0c20d26",
+        "name": "Antena 2 Bogotá 650 AM",
+        "tags": "deportes,entretenimiento,noticias y deportes,radio hablada,sports",
+        "country": "Colombia",
+        "countrycode": "CO",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "7fcf536e-8b48-487a-b892-4655ffeea736",
+        "name": "Antena 2 Cali 1030 AM",
+        "tags": "deportes,noticias y deportes,radio hablada,sports",
+        "country": "Colombia",
+        "countrycode": "CO",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "0b5ba280-1823-4b72-bd01-10e3efb2ac20",
+        "name": "Antena 2 Jazzin (Portugal)",
+        "tags": "jazz",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "4793cb1d-3628-49d8-b71f-77eb59ec4158",
+        "name": "Antena 2 Ópera",
+        "tags": "antena 2,classic,opera,rdp,rtp,ópera",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "1d1e415f-bd1e-4978-879f-cb2398a5f9e2",
+        "name": "Antena 2000",
+        "tags": "2000s,80s,90s,hits,pop en español e inglés",
+        "country": "Spain",
+        "countrycode": "ES",
+        "language": "catalan,spanish"
+    },
+    {
+        "stationuuid": "282ac845-f97c-401b-a5ba-2e2c2a2e0d15",
+        "name": "Antena 3",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "30c9039c-85ca-4c00-80d0-d482ae637e34",
+        "name": "Antena 3 - Main",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "6ee0cdcf-5d4c-4c29-9372-94a853110dec",
+        "name": "Antena 3 (AAC)",
+        "tags": "alternative,pop",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "ba4a59be-3ba1-4461-b9de-f489d605c7ac",
+        "name": "Antena 3 (Portugal)",
+        "tags": "alternative,music",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "070c21d8-f919-4c30-aac3-63de93a0d579",
+        "name": "Antena 3 Madeira (Portugal)",
+        "tags": "antena 1,madeira,music,rdp,rtp",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "2372baf4-797e-4ba6-b124-dad255b8967b",
+        "name": "Antena 8 100.1 FM",
+        "tags": "2000s,2010s,90s,comercială,hits,musica,radio hablada",
+        "country": "Panama",
+        "countrycode": "PA",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "117c4c11-7e46-4587-a7e8-5150964b7884",
+        "name": "Antena 98.9",
+        "tags": "cumbia,musica,música variada,popular,variety",
+        "country": "Argentina",
+        "countrycode": "AR",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "601f355c-81c1-446e-bba8-922384576a93",
+        "name": "Antena Aegina",
+        "tags": "folk,greek",
+        "country": "Greece",
+        "countrycode": "GR",
+        "language": "greek"
+    },
+    {
+        "stationuuid": "963df53e-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Caro",
+        "tags": "music,roquetes",
+        "country": "Spain",
+        "countrycode": "ES",
+        "language": "catalan"
+    },
+    {
+        "stationuuid": "582a1258-11e6-48fd-b024-a457dc08a987",
+        "name": "Antena CEMU",
+        "tags": "music,spoken word",
+        "country": "Spain",
+        "countrycode": "ES",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "e6848a6a-15f9-456c-9573-a7e373309eae",
+        "name": "Antena Cemu Radio 89.2 FM",
+        "tags": "charts,entretenimiento,hits,music,música variada",
+        "country": "Spain",
+        "countrycode": "ES",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "2839b65c-712b-4751-a13d-4e7ada6df3a4",
+        "name": "Antena de los Andes 1520 AM",
+        "tags": "entretenimiento,música variada,radio hablada,variety",
+        "country": "Colombia",
+        "countrycode": "CO",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "195fe5ab-7665-495a-ab1f-cdbd08c0f3c1",
+        "name": "Antena Huelva 97.3 FM",
+        "tags": "información,noticias,radio hablada,variety",
+        "country": "Spain",
+        "countrycode": "ES",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "b087798d-8bce-4651-90a4-3d6ced1db095",
+        "name": "Antena Krusevac",
+        "tags": "",
+        "country": "Serbia",
+        "countrycode": "RS",
+        "language": "serbian"
+    },
+    {
+        "stationuuid": "61af0dc5-231f-4a47-8046-1c5d3d7581b8",
+        "name": "antena libre 89.1 argentina universidad conahue",
+        "tags": "comunitaria,noticias,universitaria",
+        "country": "Argentina",
+        "countrycode": "AR",
+        "language": "español argentina"
+    },
+    {
+        "stationuuid": "aa65f6f6-f27e-4f58-9628-3c577fabc511",
+        "name": "Antena Libre 89.1 FM",
+        "tags": "alternative,noncomercial,radio comunitaria,radio hablada",
+        "country": "Argentina",
+        "countrycode": "AR",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "960bcef5-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Livre",
+        "tags": "local music",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "4b323f8e-cb0b-4db6-8c28-21269186e25a",
+        "name": "Antena Livre de Gouveia",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "961f1075-0601-11e8-ae97-52543be04c81",
+        "name": "Antena M",
+        "tags": "",
+        "country": "Montenegro",
+        "countrycode": "ME",
+        "language": ""
+    },
+    {
+        "stationuuid": "6d3bb4cf-98ae-4c24-b2d7-819744af70fe",
+        "name": "Antena Nueve 94.3 FM",
+        "tags": "entretenimiento,hits,latino,musica variada",
+        "country": "Argentina",
+        "countrycode": "AR",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "964f3705-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Radio Bor",
+        "tags": "local programming",
+        "country": "Serbia",
+        "countrycode": "RS",
+        "language": "serbian"
+    },
+    {
+        "stationuuid": "9609ebda-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Radio Kruševac",
+        "tags": "folk,local programming",
+        "country": "Serbia",
+        "countrycode": "RS",
+        "language": ""
+    },
+    {
+        "stationuuid": "08963e11-87c0-4a7b-8c05-4eb2321f29ef",
+        "name": "Antena Radio, Jelah Tešanj",
+        "tags": "",
+        "country": "Bosnia And Herzegovina",
+        "countrycode": "BA",
+        "language": "bosnian"
+    },
+    {
+        "stationuuid": "4364e4c4-5520-4615-9027-9033a534c7b6",
+        "name": "Antena Rio ",
+        "tags": "clássica,dance,music,rock,romântica etc...",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "português (br)"
+    },
+    {
+        "stationuuid": "95dedeff-9b05-4351-afef-aebcb8ff530f",
+        "name": "Antena Rio ",
+        "tags": "",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese"
+    },
+    {
+        "stationuuid": "6c97234e-16ba-438a-a7f4-fb1018cd94c5",
+        "name": "Antena Sarajevo",
+        "tags": "",
+        "country": "Bosnia And Herzegovina",
+        "countrycode": "BA",
+        "language": "bosnian"
+    },
+    {
+        "stationuuid": "960e8eb0-0601-11e8-ae97-52543be04c81",
+        "name": "Antena satelor",
+        "tags": "information,muzica,viata satului",
+        "country": "Romania",
+        "countrycode": "RO",
+        "language": "romanian"
+    },
+    {
+        "stationuuid": "9f42cff5-57cd-11ea-be63-52543be04c81",
+        "name": "antena satelor",
+        "tags": "",
+        "country": "",
+        "countrycode": "",
+        "language": ""
+    },
+    {
+        "stationuuid": "a01c9cc6-1209-43b1-bae8-15a70a3caf27",
+        "name": "Antena Satelor",
+        "tags": "",
+        "country": "Romania",
+        "countrycode": "RO",
+        "language": ""
+    },
+    {
+        "stationuuid": "34318401-7918-4516-a7cd-660d2cd3abc3",
+        "name": "Antena Sur 90.3 FM",
+        "tags": "entretenimiento,folclor,música andina,radio hablada",
+        "country": "Peru",
+        "countrycode": "PE",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "d19acfd2-9cd1-49ab-a8eb-1003b2233e25",
+        "name": "Antena Uno 90.5",
+        "tags": "classic rock,country rock,noticias,rock,rock & roll",
+        "country": "Ecuador",
+        "countrycode": "EC",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "e3e567ef-f3a6-43ab-b933-d3cf54f5bccb",
+        "name": "Antena Uno 92.3FM Posadas",
+        "tags": "entretenimiento,musica,noticias,radio hablada,variety",
+        "country": "Argentina",
+        "countrycode": "AR",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "a0a53101-7ce3-4a69-aa5c-cac3cef968cd",
+        "name": "Antena Zagreb - Live",
+        "tags": "croatian,pop,rock",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "87cbef7f-cf3b-430a-8ee5-1b2223468bfa",
+        "name": "Antena Zagreb - Xmas",
+        "tags": "christmas music,xmas",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "9626d18e-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Zagreb Dance",
+        "tags": "",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "9625ab4e-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Zagreb Hit",
+        "tags": "",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "9626f758-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Zagreb Love",
+        "tags": "",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "9626f5b0-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Zagreb Rock",
+        "tags": "classic rock,zagreb",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "961fce21-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Zagreb Uživo",
+        "tags": "",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "79bcec97-6d62-45c6-a861-85463c32f864",
+        "name": "Antena ZG",
+        "tags": "pop,rock",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "fdfc050b-71c8-4c16-9ec3-c91fedf62ae7",
+        "name": "antena1",
+        "tags": "",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "português (brasil)"
+    },
+    {
+        "stationuuid": "a4282d30-0f30-4f33-b276-6bb675543b7c",
+        "name": "antenAZero",
+        "tags": "",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese"
+    },
+    {
+        "stationuuid": "194d4d7e-3447-11e8-bb9b-52543be04c81",
+        "name": "LAC Luanda Antena Comercial (95.5 MHz FM, Luanda)",
+        "tags": "local news,local talk,music,news radio,talk radio,variety",
+        "country": "Angola",
+        "countrycode": "AO",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "6c491004-2474-11e8-91bf-52543be04c81",
+        "name": "Radio Antena",
+        "tags": "pop,top 40",
+        "country": "Slovenia",
+        "countrycode": "SI",
+        "language": "slovenian"
+    },
+    {
+        "stationuuid": "a15095f9-f59a-497d-b0ba-36c247d1814a",
+        "name": "Radio Antena",
+        "tags": "izvorna",
+        "country": "Serbia",
+        "countrycode": "RS",
+        "language": "serbian"
+    },
+    {
+        "stationuuid": "05fc6e55-9b78-4801-931a-5fac1c3e3a99",
+        "name": "Radio Antena (105.2MHz)",
+        "tags": "mix,pop,rock,song hits",
+        "country": "Slovenia",
+        "countrycode": "SI",
+        "language": "slovenian,slovenski"
+    },
+    {
+        "stationuuid": "c2602790-b67a-48ef-9954-6a3a9e18d8d0",
+        "name": "Rádio Antena 1",
+        "tags": "fado,news,noticias,pop,publica",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "cf6f7bd1-8b36-4d59-9dd8-30143248fd81",
+        "name": "Rádio Antena 1 107.5 FM",
+        "tags": "adult",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "1264c0bb-a2c3-41d2-8c47-903e91539802",
+        "name": "Rádio Antena 1 88.3 FM",
+        "tags": "adult,classic hip hop,flashback",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "570cc99a-9159-4d91-9a8f-96ddb5b30797",
+        "name": "Rádio Antena 1 94.7 FM",
+        "tags": "adult,flashback",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "22b186c8-7afc-439c-af03-15ae488553c6",
+        "name": "Rádio Antena 1 Vitória",
+        "tags": "hits",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese"
+    },
+    {
+        "stationuuid": "9d3cfaac-5c9a-11e9-a622-52543be04c81",
+        "name": "Radio Antena 3 91.7 FM",
+        "tags": "commercial,latin,music,musica,musica latina,news,noticias,reggaeton,salsa",
+        "country": "Ecuador",
+        "countrycode": "EC",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "f364e6b9-f360-4e18-b801-a62218155484",
+        "name": "Radio Antena 5 Cusco 1600 AM (más que una Radio !)",
+        "tags": "clasicos,cultural,entretenimiento,música en español e inglés,radio hablada,rock,rock en español",
+        "country": "Peru",
+        "countrycode": "PE",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "961a0e1c-0601-11e8-ae97-52543be04c81",
+        "name": "Radio Antena Braşovului",
+        "tags": "antena braşovului,braşov,romania",
+        "country": "Romania",
+        "countrycode": "RO",
+        "language": "romanian"
+    },
+    {
+        "stationuuid": "961987df-0601-11e8-ae97-52543be04c81",
+        "name": "Rádio Antena Livre",
+        "tags": "adult contemporary,local music,pop,top 40",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "96193484-0601-11e8-ae97-52543be04c81",
+        "name": "Rádio Antena Minho",
+        "tags": "news,sport,world music",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "dbd2c8ed-498a-4470-9e30-e0e1adb7dc6f",
+        "name": "Rádio Antena Nove",
+        "tags": "hits,local news,pop",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "9c79178b-e627-450c-9d66-57cf496b57a9",
+        "name": "Rádio Antena Rio ",
+        "tags": "dance rock classic",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portugues do braasil"
+    },
+    {
+        "stationuuid": "0d89d0f4-2b86-4e6c-b4a7-6aded1397302",
+        "name": "Rádio Antena Rio ",
+        "tags": "dance rock classic",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portugues do braasil"
+    },
+    {
+        "stationuuid": "b0a0eb2e-a907-4800-9e67-e58ea881300b",
+        "name": "Radio Antena Satelor",
+        "tags": "",
+        "country": "Romania",
+        "countrycode": "RO",
+        "language": ""
+    },
+    {
+        "stationuuid": "06dbca35-b046-49a0-ba41-7941ed291af1",
+        "name": "RADIO ANTENA SUR 89.5FM (LA SEñAL DE ORO DESDE PONCE ENRIQUEZ(",
+        "tags": "cumbia,folclor,musica andina,popular",
+        "country": "Ecuador",
+        "countrycode": "EC",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "80a56515-a3d8-4e77-95a0-e88962dc0843",
+        "name": "Rádio Moçambique Antena Nacional",
+        "tags": "news",
+        "country": "Mozambique",
+        "countrycode": "MZ",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "fb79df08-63e1-4ac2-9b17-3c7861db4248",
+        "name": "RCN Antena 2 La Cariñosa Cartagena",
+        "tags": "folk,public affairs,vallenato",
+        "country": "Colombia",
+        "countrycode": "CO",
+        "language": ""
+    },
+    {
+        "stationuuid": "701e5bbd-5384-468a-a564-179de50e5544",
+        "name": "ROMÂNIA  Antena Satelor",
+        "tags": "music,muzică populară,national,news",
+        "country": "Romania",
+        "countrycode": "RO",
+        "language": "romania"
+    },
+    {
+        "stationuuid": "1aa67c97-6108-4085-871b-28e589644de8",
+        "name": "RTP Antena 2",
+        "tags": "classical",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "d0eddde0-9105-4af6-a61b-9679ed8ba96d",
+        "name": "97 FM Natal",
+        "tags": "arrocha,forró,forró e sertanejo,pisadinha,pop,sertanejo,vaquejada",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese,pt-br"
+    },
+    {
+        "stationuuid": "ca800fc2-ae56-4225-af6d-1465f446ac81",
+        "name": "Rádio Cidade",
+        "tags": "rock",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "pt-br"
+    },
+    {
+        "stationuuid": "5dcde101-8ff7-4750-ba90-125d6de2a666",
+        "name": "Radio Cordeiro de Deus",
+        "tags": "christian-gospel,gospel contemporary,gospel country,gospel dance,gospel evangélica,gospel music,gospel pop,southern gospel,urban gospel",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "pt-br"
+    },
+    {
+        "stationuuid": "4a33948a-df59-4d0e-8c5e-a9d8e2e45b50",
+        "name": "=KECO=70s ROCK ",
+        "tags": "70s rock",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "engilsh"
+    },
+    {
+        "stationuuid": "fdbb4f77-5983-408e-8c4c-04c98c59a9f6",
+        "name": "=KECO=ROCK BALLADS",
+        "tags": "70s rock ballads",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "engilsh"
+    },
+    {
+        "stationuuid": "55d9b05c-6339-446f-9b98-0a265782822c",
+        "name": "=KECO=ROCK FM ",
+        "tags": "rock music",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "engilsh"
+    },
+    {
+        "stationuuid": "cc590cc5-7126-4c4d-bc5e-6910f784c0fc",
+        "name": "5fm",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "dcbe3bf9-5cee-43a8-aafc-af8dbf3146cc",
+        "name": "5FM Veles",
+        "tags": "hits,pop",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "english,macedonian"
+    },
+    {
+        "stationuuid": "442a3644-15a2-4b2a-a881-720e2124009b",
+        "name": "Antenna 5 Macedonia",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "525ca938-35ab-4ea4-ac3f-af8cd458de2a",
+        "name": "BISER RADIO",
+        "tags": "pop",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "1fbf20aa-2f23-47fa-86ae-6696aca442b1",
+        "name": "Bum Kumanovo",
+        "tags": "international",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "011dbb9a-6337-4966-b604-b3bd92f128bc",
+        "name": "EX-YU Stil Trap",
+        "tags": "ex-yu",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "36b02bfe-a94d-4c8d-9b7c-9a3fd570dc8a",
+        "name": "Hits Sky Radio 102.5 FM Macedonia (MP3 128 kbps)",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "69e00e1b-2dd9-432d-b60a-e4a38ad41f41",
+        "name": "Jazz FM",
+        "tags": "jazz",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "24075e72-a24c-4baf-a9e2-eaf6c788a4e1",
+        "name": "Just Music Radio",
+        "tags": "blues,disco,funk,funky,fusion,jazz,lounge,smooth jazz,soul",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "english,macedonian"
+    },
+    {
+        "stationuuid": "96152e10-0601-11e8-ae97-52543be04c81",
+        "name": "Kanal 103",
+        "tags": "alternative,dance,electronic,freeform,indie,pop rock,underground",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "884b8ccd-d770-4f9a-a504-126c99829b47",
+        "name": "Lider FM 107,4",
+        "tags": "fm radio station,liderfm,public radio",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "e3786c69-0f8f-11ea-a87e-52543be04c81",
+        "name": "Life Radio",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "english,macedonian"
+    },
+    {
+        "stationuuid": "1e252db7-19c5-4b13-95d0-8571c3d1948e",
+        "name": "Life Radio 89.1 Macedonia",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "434f2c63-da2d-4a48-85e9-f7c927122f4d",
+        "name": "Metropolis Radio Network",
+        "tags": "club,electronic,pop,rock",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "0a24ab05-26e9-4410-bb07-82b70cf0b8ec",
+        "name": "ORO RADIO",
+        "tags": "alternative,classical,disco,electronic,funk,hip-hop,indie,jazz,macedonian,rock,techno,world",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "english/,macedonian"
+    },
+    {
+        "stationuuid": "9328b039-eae7-4bbd-8bbd-3d17502e73fd",
+        "name": "radio 22",
+        "tags": "pop music,pop rock,rock",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "1b454730-a1ae-4e63-a241-9f3399d0231a",
+        "name": "Radio Bravo Smooth Jazz Mix Radio",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "09e63439-9a84-4017-a456-14ee4f390f61",
+        "name": "Radio Bubamara 105.2 Skopje, Macedonia",
+        "tags": "exyu,macedonian pop,macedonian rock,serbian",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "e8de8dc8-aba2-4d19-9f59-0f1ea7f6b75e",
+        "name": "Radio Fortuna 96.8 Skopje, Macedonia",
+        "tags": "pop",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "e66a2ca4-bb45-4b0e-beff-9bbaa74ddd5b",
+        "name": "Radio G - Gostivar",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "cf5dc407-3f39-4608-ba7d-5cb4ce3235d8",
+        "name": "Radio Kanal 77 Skopje, Macedonia",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "1c759ff8-5a23-11e9-a622-52543be04c81",
+        "name": "Radio Maria Macedonia",
+        "tags": "catholic,religion",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "0bab9059-8fb9-4590-96fe-efebaf99753c",
+        "name": "Radio Meff",
+        "tags": "classical",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "0ae5718d-b914-4c75-94c6-31866087611f",
+        "name": "Radio valandovo ",
+        "tags": "music",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "01119f64-55ad-4491-a974-86835f5347cb",
+        "name": "RadioBar",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "a0aed8e2-f3e1-4bfb-9430-b64d2ba26182",
+        "name": "Retro Sky Radio 102.5 FM Macedonia (MP3 128 kbps)",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "f6a29331-294a-49c0-84f0-4eefb7622964",
+        "name": "SKY FOLK",
+        "tags": "macedonian folk",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "1e764559-cb2b-43a5-b732-ba7340ab12bf",
+        "name": "Sky Radio 102.5 FM Macedonia (MP3 128 kbps)",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "827d54bd-f173-4b66-8e74-86a27ceac61c",
+        "name": "Star Radio (Boemi) Skopje, Macedonia",
+        "tags": "exyu,serbian folk,serbian pop",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "7317f14e-6e43-4b8a-a4b1-b430a0ac0399",
+        "name": "Stil Radio Live Macedonia",
+        "tags": "macedonian,serbian,turbo folk",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "76498941-8bcb-46a1-92f3-03dd42432581",
+        "name": "Time FM Gevgelija",
+        "tags": "music",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "e35bf37d-523a-4d13-a867-02da3929e23c",
+        "name": "Urban FM 90.8 Skopje",
+        "tags": "pop",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "7fa6ba8e-839e-49be-b80e-bd0ce9f44e04",
+        "name": "Експрес Радио 101.1 Струмица, Македонија",
+        "tags": "pop",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "f622086a-f54e-41d3-b135-9c7d38ab56d6",
+        "name": "Канал 77 Радио Мрежа ",
+        "tags": "pop music",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "1bb7e1c0-267e-4030-b42c-4322954cd407",
+        "name": "Скај Радио",
+        "tags": "pop",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "d794a9e7-1acf-40b6-a34f-8308212e11f8",
+        "name": "Rádio Notícia 88,9 FM Americana SP",
+        "tags": "musica",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "hits,samba e pagode"
+    },
+    {
+        "stationuuid": "085fb651-592e-426f-8fd7-cbc968d2d08c",
+        "name": "101.9 Radio Educativa - Campinas",
+        "tags": "pop & samba - antigas",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "f3e828d4-b532-4ae7-8877-cdd69ada7f27",
+        "name": "105 FM - SP",
+        "tags": "pagode,rap,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "3998f9ae-ed80-4319-8109-0acb29efb256",
+        "name": "BH FM 102,1 MHz ZYC690 (Belo Horizonte - MG)",
+        "tags": "funk,internacional,nacional,pagode,pop,samba,sertanejo",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese"
+    },
+    {
+        "stationuuid": "2553f86a-83db-4f3f-acee-e91dfd026a54",
+        "name": "Bossa Beyond (Special) ",
+        "tags": "bossa nova,mpb,samba",
+        "country": "The United States Of America",
+        "countrycode": "US",
+        "language": "brazilian portuguese,english"
+    },
+    {
+        "stationuuid": "2784dd11-fa5a-450e-93a6-6d246504c8ee",
+        "name": "Breaking Bass Air",
+        "tags": "atmospheric,darkstep,dnb,dram&bass,drumandbass,hardstep,intelligent,jazzstep,jumpup,jungle,liquid,neurofunk,sambass,techstep",
+        "country": "The Russian Federation",
+        "countrycode": "RU",
+        "language": "russian"
+    },
+    {
+        "stationuuid": "7e1c7041-c288-4f9a-b859-1a461cf728dc",
+        "name": "Clube FM 96,5 MHz ZYC692 (Belo Horizonte - MG)",
+        "tags": "internacional,nacional,samba,sertanejo",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese"
+    },
+    {
+        "stationuuid": "add6cef5-d892-4248-b542-f981f2d97665",
+        "name": "Eldorado FM",
+        "tags": "pagode,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese"
+    },
+    {
+        "stationuuid": "963d00c1-0601-11e8-ae97-52543be04c81",
+        "name": "Klassik Radio - Brazil",
+        "tags": "bossa nova,latin,samba",
+        "country": "Germany",
+        "countrycode": "DE",
+        "language": "german"
+    },
+    {
+        "stationuuid": "d2df9d62-a851-4ef7-a6fa-c122546d78df",
+        "name": "La Clave Stereo 93.6",
+        "tags": "musica latinoamericana,música latina,salsa,samba",
+        "country": "Spain",
+        "countrycode": "ES",
+        "language": "espaňol"
+    },
+    {
+        "stationuuid": "e49351ef-ae39-11e8-aa67-52543be04c81",
+        "name": "Radio Art - Bossa Nova",
+        "tags": "bossa nova,brazilian jazz,brazilian music,samba",
+        "country": "Greece",
+        "countrycode": "GR",
+        "language": "english"
+    },
+    {
+        "stationuuid": "f5a792cd-ad3a-47d8-97d4-f9e3d7817303",
+        "name": "Rádio Band 106.7 FM",
+        "tags": "pagode,popular,samba,sertanejo",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "f50d93d5-590c-11e8-b0ce-52543be04c81",
+        "name": "Rádio Batuta MPB - A webradio do Instituto Moreira Salles",
+        "tags": "brazilian music,mpb,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "278b8960-e75d-45f5-92a4-d17fda26de3e",
+        "name": "Rádio Brasil Atual",
+        "tags": "bossa nova,brazilian music,left wing,mpb,news,political talk,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese"
+    },
+    {
+        "stationuuid": "26b39e49-697a-4e16-81b8-14af7349a70d",
+        "name": "Radio Pagode Brasil",
+        "tags": "pagode,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese,portuguese"
+    },
+    {
+        "stationuuid": "c2a27941-02cd-4e43-a29c-b91ad0eb6179",
+        "name": "Radio Paredão PAGODAO",
+        "tags": "bahia,brasil,pagodao,pagode,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese,portuguese"
+    },
+    {
+        "stationuuid": "61f80a1f-bccf-4bfd-9938-da11a22181cb",
+        "name": "Radio Regenbogen Sommerhits",
+        "tags": "dance,latin,reggae,rumba,salsa,samba",
+        "country": "Germany",
+        "countrycode": "DE",
+        "language": "german"
+    },
+    {
+        "stationuuid": "3e55720e-f8dc-4633-8076-d6f0d5ad7203",
+        "name": "Rádio Saudades",
+        "tags": "flashback,pop,samba,sertanejo",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese,portuguese"
+    },
+    {
+        "stationuuid": "63a58962-2491-46b3-a813-c7751510e4d0",
+        "name": "Rádio Senado (Brasília)",
+        "tags": "local government,mpb,news,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese,portuguese"
+    },
+    {
+        "stationuuid": "e9ac205c-be62-4aac-90ed-ce6a36912615",
+        "name": "Rádio Sound - Pagode",
+        "tags": "brasil,pagode,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "português (brasil)"
+    },
+    {
+        "stationuuid": "edc3097e-07cb-4609-8d19-5617dcecfdc5",
+        "name": "SomaFM Bossa Beyond",
+        "tags": "bossa nova,samba",
+        "country": "The United States Of America",
+        "countrycode": "US",
+        "language": ""
+    },
+    {
+        "stationuuid": "97900b8c-276f-4b16-825b-a8f587b97fa1",
+        "name": "SomaFM Secret Agent",
+        "tags": "downtempo,lounge,samba,sixties",
+        "country": "The United States Of America",
+        "countrycode": "US",
+        "language": ""
+    },
+    {
+        "stationuuid": "960cd948-0601-11e8-ae97-52543be04c81",
+        "name": "ABradio Chillout",
+        "tags": "chillout,electronic,trip hop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "english"
+    },
+    {
+        "stationuuid": "964992d9-0601-11e8-ae97-52543be04c81",
+        "name": "Azadlıq Radiosu (RFE/RL in Azerbaijani, ch. 15)",
+        "tags": "news,prague,rfe-rl",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "azerbaijani"
+    },
+    {
+        "stationuuid": "964967ed-0601-11e8-ae97-52543be04c81",
+        "name": "Azat Ýewropa/Azatlyk Radiosy (RFE/RL in Turkmen, ch. 8)",
+        "tags": "news,prague,rfe-rl",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "turkmen"
+    },
+    {
+        "stationuuid": "40c7fb8f-287f-11e8-91bf-52543be04c81",
+        "name": "Český Impuls",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "15a1be97-30a5-4587-92ba-4d620185e849",
+        "name": "Český rozhlas BRNO",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "0e8a50f5-5f1a-4d5f-9350-83eff4efea9f",
+        "name": "Český rozhlas Brno",
+        "tags": "local",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "česky"
+    },
+    {
+        "stationuuid": "07eb56e1-0eb8-4070-a68e-4bd24b545db3",
+        "name": "Český rozhlas České Budějovice",
+        "tags": "regional",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "aaec68f1-aa06-423e-aa82-2dab5a36ff82",
+        "name": "Cesky Rozhlas Classical Lossless FLAC Stream",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "f30802ce-2b2c-4a5c-8f18-7537b2234617",
+        "name": "Cesky Rozhlas D-dur",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "6e24e63f-a100-4df7-bc25-bc9fa327ac07",
+        "name": "Cesky Rozhlas Jazz",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "9a25d1e8-04bf-4987-bffc-d455447af673",
+        "name": "Cesky Rozhlas Jazz Lossless FLAC Stream",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "fc758d0c-a141-4130-9f95-39edd422c0cd",
+        "name": "Český rozhlas Rádio Junior",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "fbd0491d-829d-44fb-9bee-b7d784804b12",
+        "name": "Český rozhlas ZLÍN ",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "58633ddd-fa5d-4ead-a150-a95137ac094d",
+        "name": "City FM",
+        "tags": "dance,eurodance,hits,top100",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech,english"
+    },
+    {
+        "stationuuid": "e34d0358-26f3-11e8-91bf-52543be04c81",
+        "name": "City Milenium",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "9647ec96-0601-11e8-ae97-52543be04c81",
+        "name": "Classic Praha",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "c34f97eb-de1b-4164-9344-b9f0a4f9ac91",
+        "name": "COLOR Music Radio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "17e20c76-e993-45fb-88f4-6efdef17cc28",
+        "name": "Color Music Radio",
+        "tags": "funk,hiphop,rnb,soul",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech,english"
+    },
+    {
+        "stationuuid": "b2e362d0-b8e0-11e9-acb2-52543be04c81",
+        "name": "Comedy Club R@dio DIANA",
+        "tags": "comedy,talk",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "a3566686-dace-4de3-9e62-67f1e56ec886",
+        "name": "COOP TIP Radio",
+        "tags": "pop music",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "720e5547-8a01-4f5c-a404-e53dcc8a9c3c",
+        "name": "COOP TIP Radio",
+        "tags": "pop music",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "7ecb52d8-d8ea-4750-855a-69950f7226ee",
+        "name": "Country Radio",
+        "tags": "country",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "960ece9a-0601-11e8-ae97-52543be04c81",
+        "name": "Country Radio",
+        "tags": "country",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "626c8105-6388-4a20-aaa6-c6fe02c44a32",
+        "name": "County",
+        "tags": "country",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "0b88b8ac-30cb-4ee7-af0e-e76b01960c55",
+        "name": "ČRo D-dur",
+        "tags": "classical",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "0933cedf-76b4-4953-8561-12563becd8ee",
+        "name": "ČRo D-dur FLAC",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "309a02c6-8c06-474d-94db-8b2845f7c909",
+        "name": "ČRo D-dur HD",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "4a4ac2f1-36bb-11ea-8dd7-52543be04c81",
+        "name": "ČRo Dvojka",
+        "tags": "32k,aac+,public radio,talk,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "960c2ef6-0601-11e8-ae97-52543be04c81",
+        "name": "ČRo Dvojka",
+        "tags": "public radio,talk,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "1c73ba77-2de2-420f-90dd-74d15118a9be",
+        "name": "ČRo Jazz",
+        "tags": "flac,jazz,lossless,public radio,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "5ede470f-e41b-11e8-a9cc-52543be04c81",
+        "name": "ČRO Jazz 256",
+        "tags": "jazz",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "de4f53b1-3a55-447d-b3e8-29b9f09833a4",
+        "name": "ČRo Olomouc",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "56359e3e-8447-4c27-a577-60d54a8e9b39",
+        "name": "ČRo Ostrava",
+        "tags": "general,regional radio",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "961f6420-0601-11e8-ae97-52543be04c81",
+        "name": "ČRo Plus",
+        "tags": "public radio,talk,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "50c08114-84d3-41ac-9f40-02b09e4913fe",
+        "name": "ČRo Plus",
+        "tags": "news,public radio",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "917790a4-3209-4d61-84b7-b2356ae78b61",
+        "name": "ČRo Plus",
+        "tags": "talk & speech",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "b11f0826-be44-4da4-a9a2-df5ba55013ba",
+        "name": "ČRo Plus",
+        "tags": "talk & speech",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "8838a3a4-5aa1-4e41-8a11-7fc7c86e6c4c",
+        "name": "ČRo Pohoda",
+        "tags": "oldies,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "9665c76e-36c6-11ea-8dd7-52543be04c81",
+        "name": "ČRo Rádio Junior",
+        "tags": "32k,aac+,children,public radio,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "961f0c9d-0601-11e8-ae97-52543be04c81",
+        "name": "ČRo Radio Wave",
+        "tags": "alternative,public radio,youth,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "5a0b9ad6-d9ff-44dc-8b4c-08988b07a5be",
+        "name": "ČRo Radio Wave",
+        "tags": "cultural news,modern,progressive",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "28a82edb-36b8-11ea-8dd7-52543be04c81",
+        "name": "ČRo Radiožurnál",
+        "tags": "news,public radio,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "ffc0040e-5e9c-4e08-8c57-94db090c9e7a",
+        "name": "CRo Radiozurnal",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "960c2e1f-0601-11e8-ae97-52543be04c81",
+        "name": "ČRo Radiožurnál",
+        "tags": "news,public radio,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "c1f742d6-b2c4-4b73-a9ad-30ddf194345e",
+        "name": "ČRO Radiožurnál Sport",
+        "tags": "news,public radio,sport,talk",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "380525e0-e2bb-4419-98ee-fc21c83f45c5",
+        "name": "čro Radiožurnál Sport AdHoc stream 1",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "b74ae42b-9648-4caa-9a95-bd175294d0af",
+        "name": "ČRO Radiožurnál sport AdHoc stream 2",
+        "tags": "news talk,sports news,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "d20f94a0-4f9c-4a71-8957-bd1216e8e9c6",
+        "name": "ČRO Radiožurnál sport Adhoc stream 2",
+        "tags": "news talk,sports news",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "d45dca1f-d3ab-4bc6-a247-ad98d91cb09e",
+        "name": "čro radiožurnál sport Stream AdHoc 2",
+        "tags": "news talk,sports news,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "6cf9d9a0-3eec-4ea3-a28a-dde8c27f3b26",
+        "name": "ČRo Sever",
+        "tags": "local radio",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "77fe2432-36be-11ea-8dd7-52543be04c81",
+        "name": "ČRo Vltava",
+        "tags": "32k,aac+,classical,public radio,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "960bf772-0601-11e8-ae97-52543be04c81",
+        "name": "ČRo Vltava",
+        "tags": "classical,public radio,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "b371f892-5d45-413c-bd65-d6143c1245b5",
+        "name": "CRo Vysocina",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "04602093-2633-4f1a-9e22-c0007e9436af",
+        "name": "ČRo Wave",
+        "tags": "alternative,public radio,youth",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "4fd9a6c5-16e3-4a54-a159-8314a52c1770",
+        "name": "ČRo Wave",
+        "tags": "alternative,contemporary,cultural news,young adults",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "3963a7f3-d1cc-4fe1-831b-36499ca21b6f",
+        "name": "ČRo Wave",
+        "tags": "contemporary,cultural news,young adults",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "6f61cd1b-a6f8-4546-b8f5-c848571c116a",
+        "name": "Czech radio classical",
+        "tags": "classical",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "dc8919ca-4a37-4a25-881a-8c2b15294979",
+        "name": "Czech Radio ČRo D-dur",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "d82146be-974e-47d8-85fb-935985e44482",
+        "name": "Dance Club FM",
+        "tags": "dance",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "c6c9277a-68ae-4230-9d06-aeab4847d649",
+        "name": "Dance Club Radio",
+        "tags": "dance,dj,house,trance",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "b5792bd1-5c77-11e9-a622-52543be04c81",
+        "name": "Dance Radio",
+        "tags": "320kbps",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "cd563cdc-5c77-11e9-a622-52543be04c81",
+        "name": "Dance Radio",
+        "tags": "128kbit",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "7c169c79-1cd9-40c5-a74f-fa91a467dccd",
+        "name": "Dance rádio cz",
+        "tags": "fm 89.0",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "english"
+    },
+    {
+        "stationuuid": "058d60b3-c876-4d2f-90e3-57584a1928ec",
+        "name": "Dandy Radio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "english"
+    },
+    {
+        "stationuuid": "f84d4751-53b7-4a05-b838-5923740429aa",
+        "name": "ELLIS",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "english"
+    },
+    {
+        "stationuuid": "964993b1-0601-11e8-ae97-52543be04c81",
+        "name": "Europa Liberă (RFE/RL for Moldova, ch. 18)",
+        "tags": "news,prague,rfe-rl",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "romanian"
+    },
+    {
+        "stationuuid": "8552af34-2284-41bd-9a0e-2c534fcc59b0",
+        "name": "Evropa 2 - aac",
+        "tags": "pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "7cf86499-d207-4522-bb8a-0b5a25f8bb73",
+        "name": "Evropa 2 - Actve",
+        "tags": "pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "129b3663-0543-443a-886e-b2c101cf326b",
+        "name": "Evropa 2 - mp3",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "1b568695-9ce7-493d-ba72-d9b3d5e0a364",
+        "name": "Evropa 2 - Radio",
+        "tags": "88.2",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "7feb3c60-f5b5-4796-8c4c-a0acd40d4895",
+        "name": "Evropa2 Youradio Flashbacky",
+        "tags": "90's,retro",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "d6bb6104-fc0b-41d9-9e46-24ffb08543ef",
+        "name": "Expres FM",
+        "tags": "hits,pop,top40",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech,english"
+    },
+    {
+        "stationuuid": "960ed031-0601-11e8-ae97-52543be04c81",
+        "name": "Expresradio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "c6756b5f-3bd7-422d-87c7-4e4ae8fe829f",
+        "name": "Express FM",
+        "tags": "alternative,czech folk music,dance,pop,prague,rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "568ef843-32e6-4911-849e-1151e47f4269",
+        "name": "Fajn Fresh",
+        "tags": "pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "5d37c750-97ad-4305-9c0b-9a6a6cb02100",
+        "name": "Fajn Fresh Radio",
+        "tags": "dance,house,pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "8c5750b4-6870-11ea-9d09-52543be04c81",
+        "name": "Fajn Rádio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "0b0538d7-3a3f-40a1-a4f5-6de534b5298c",
+        "name": "Fed's Trap Radio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "89c307c8-626a-4af8-aae1-c332b6492f3a",
+        "name": "Fed's Trap Radio",
+        "tags": "trap",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "149c48ae-ab14-40b6-8fd7-6f26635bec90",
+        "name": "Fed's Trap Radio",
+        "tags": "chill,chilled trap,edm,electronic,hip-hop,liquid trap,trap",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "english"
+    },
+    {
+        "stationuuid": "06c53709-7964-4650-8809-1266932e3fb6",
+        "name": "Flash radio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "33d5e36b-7301-494c-b022-d7f3a304f72b",
+        "name": "Free Rádio 107,0 FM Brno",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "961f6cc4-0601-11e8-ae97-52543be04c81",
+        "name": "Free Rádio 107,0 FM Brno",
+        "tags": "90s,dance,hiphop,house,pop,rnb,trance",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "7b65aafa-6b87-4164-866a-01234cc6e27d",
+        "name": "Free Rave CZ",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "613525ac-8afa-4e94-beec-ae5cf6c7034e",
+        "name": "FREERAVE.CZ",
+        "tags": "hardtechno,techno",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "d59ad82a-3044-4951-8c6c-a0d72b26001c",
+        "name": "Frekvence 1",
+        "tags": "commercial",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "927edba2-7db7-40f2-96bd-8a9316de90f4",
+        "name": "FREKVENCE 1",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "5dfff7e0-a712-4fc4-bac2-ba9c2769309f",
+        "name": "Frekvence 1 - Youradio Československé hity",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "033a307e-4396-4b97-b2c5-a7f24cf604fc",
+        "name": "Frekvence 1 - Youradio Legendy",
+        "tags": "nostalgia,nostalgic,nostalgico,nostalgie",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "6d8af92e-3174-472d-8476-6521cb520054",
+        "name": "Frekvence 1 - Youradio Osmdesátky",
+        "tags": "80's",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "c1555df0-3fe9-49cb-b2f4-9e3c7c46d4c2",
+        "name": "Fresh radio 103.6",
+        "tags": "dance,electronic dance music",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "120f9ba0-c55a-498a-ae36-58b5c27ac2af",
+        "name": "Funkstar Radio",
+        "tags": "disco,discomusic 70,discomusic 80,funk,nu-disco",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "english"
+    },
+    {
+        "stationuuid": "b581783f-fe7c-4f4d-9aff-f22e04aead8a",
+        "name": "Ghost Rádios",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "6f27451f-84bf-454f-971d-9c8c28c59c37",
+        "name": "Haná",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "česky"
+    },
+    {
+        "stationuuid": "961d4eb8-0601-11e8-ae97-52543be04c81",
+        "name": "Helax 93,7",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "961d7067-0601-11e8-ae97-52543be04c81",
+        "name": "HEY rádio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech,english"
+    },
+    {
+        "stationuuid": "e45ddf1d-963b-4e32-94d9-a3f1ed9cbc00",
+        "name": "Hit FM Plus",
+        "tags": "pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "9bea3d90-d08b-4441-ab92-47ab2ccb5c9b",
+        "name": "Hit PopRock",
+        "tags": "pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "a005443c-083b-11e8-ae97-52543be04c81",
+        "name": "HIT Rádio Orion",
+        "tags": "hits",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "6f54eb2a-7fc1-4837-b25b-ded903ec4dbe",
+        "name": "Hitrádio Černá Hora",
+        "tags": "80's,90's,pop rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "81361abb-1d2f-4064-bace-ac0e32bbe505",
+        "name": "Hitrádio Černá Hora",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "ea3b7622-08e8-445e-8728-15043d4fdf6a",
+        "name": "Hitrádio Černá Hora 128",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "10dc2cfb-5938-4336-bfa8-51231ad5e5b1",
+        "name": "Hitrádio City 93.7 FM",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "96398566-0601-11e8-ae97-52543be04c81",
+        "name": "Hitrádio City Brno",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "431e7237-86b0-11e8-aa66-52543be04c81",
+        "name": "hitradio City zona Lasky",
+        "tags": "love songs,pop,romantic",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "811e935c-fc92-4a70-9eb8-f215059d446d",
+        "name": "Hitrádio Contact",
+        "tags": "pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "960c2ab1-0601-11e8-ae97-52543be04c81",
+        "name": "Hitrádio Devadesátka",
+        "tags": "90s,pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "056e5ad2-c0d5-4e72-a719-d39c86fc734b",
+        "name": "Hitrádio Faktor",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "fb6df011-77a5-11e8-83fa-52543be04c81",
+        "name": "Hitrádio FM",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "c39ee6bf-d126-11e8-a54a-52543be04c81",
+        "name": "Hitrádio FM Crystal",
+        "tags": "local,pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "961cf04b-0601-11e8-ae97-52543be04c81",
+        "name": "Hitrádio Osmdesátka",
+        "tags": "80s",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "4740ae67-9381-4846-8fba-8aaf5707d889",
+        "name": "Hitrádio PopRock",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "961dc5c0-0601-11e8-ae97-52543be04c81",
+        "name": "Hitrádio Vysočina",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "7f727b20-8a77-4978-8bec-b5101a1867cc",
+        "name": "Hitradio Zlín",
+        "tags": "cz sk,hits,modern,pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "bc5b6165-a6da-42a8-a676-8e1f42eb23fc",
+        "name": "Impuls",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "c45e34f4-d927-11e9-a861-52543be04c81",
+        "name": "Impuls Ráááádio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "738686d7-63c4-4965-b7ef-32c01651e076",
+        "name": "Impuls Ráááádio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "f1cbcd69-3f84-4089-8168-b00cfbc02160",
+        "name": "JASRádio News Service",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech,english,slovak"
+    },
+    {
+        "stationuuid": "d5b6be0e-7d96-4ac7-b310-2ef5bfcafd47",
+        "name": "JČ1 - Televize jižní Čechy",
+        "tags": "local news,news talk,regional,tv",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "960ed37d-0601-11e8-ae97-52543be04c81",
+        "name": "Kiss 98 FM",
+        "tags": "pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "961edb13-0601-11e8-ae97-52543be04c81",
+        "name": "Kiss Delta",
+        "tags": "hits,pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "960d5c99-0601-11e8-ae97-52543be04c81",
+        "name": "Kiss Hady",
+        "tags": "pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "961ed5ff-0601-11e8-ae97-52543be04c81",
+        "name": "Kiss Publikum",
+        "tags": "hits,pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "348fdad1-69cc-4f53-a848-a73175aad522",
+        "name": "Kiss Radio",
+        "tags": "dance,nineties",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "12f79ab6-1e88-482a-8021-5e99c6f20f13",
+        "name": "LA RADIO PLUS ANNECY",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "15580ab2-1817-11e9-a80b-52543be04c81",
+        "name": "Metal Heart",
+        "tags": "metal,rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "b565f9c1-212b-4e4b-9175-9f1f089dfc2d",
+        "name": "Metal Heart Radio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "961d4cf1-0601-11e8-ae97-52543be04c81",
+        "name": "Metalománie",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "60df337a-fd2d-435e-83ef-8cf6ae395779",
+        "name": "Mňau TV",
+        "tags": "tv",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "4300fc98-119d-417d-b9d7-f06578d68240",
+        "name": "Netro Life radio 100,8 FM",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "86ade1ec-0b06-4ede-97a1-04ab18299265",
+        "name": "Netro Life Radio 100,8 FM",
+        "tags": "dance,dj sets",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "64059b8b-db39-4414-8f0c-fec635744cfc",
+        "name": "Óčko",
+        "tags": "music,pop music,tv",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "eb2c518f-2279-45df-beba-ce5293897479",
+        "name": "Óčko Expres",
+        "tags": "music,tv",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "3321ebec-e7f8-46bc-bf47-3a4de512ecf1",
+        "name": "Óčko Star",
+        "tags": "goldies,music,tv",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "f94d6ffa-4eaf-41ac-9d17-9db568814d7b",
+        "name": "OIK TV",
+        "tags": "local news,news,news talk,regional,tv",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "59425e67-86b7-11e9-aa30-52543be04c81",
+        "name": "Oldies Rádio",
+        "tags": "oldies",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "4ee5a87d-e445-4ce2-8cad-da534e8be10b",
+        "name": "Phonk Nation Radio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "4e9b0f36-3b10-4e00-baa0-ab2e18322dbe",
+        "name": "Phonk Nation Radio",
+        "tags": "memphis rap,phonk,pop,rap",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech,english"
+    },
+    {
+        "stationuuid": "edbb4c24-20ff-49a9-889e-7faeaa98c2cd",
+        "name": "PHONK RADIO",
+        "tags": "phonk",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "english"
+    },
+    {
+        "stationuuid": "72e15a70-d929-11e9-a861-52543be04c81",
+        "name": "Pigy.cz – Disko Trysko",
+        "tags": "dance,kids",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "9eb9bcda-d929-11e9-a861-52543be04c81",
+        "name": "Pigy.cz – Písničky z pohádek",
+        "tags": "childrens music",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "3fda342d-d929-11e9-a861-52543be04c81",
+        "name": "Pigy.cz – Pohádky",
+        "tags": "fairytales,kids",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "8e221247-8103-4209-a119-519b4bd9fb93",
+        "name": "Plzeň TV",
+        "tags": "local news,news,regional,tv",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "848caf0f-5992-11ea-be63-52543be04c81",
+        "name": "povídka",
+        "tags": "undefined",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "20489f66-8d40-493b-bf8a-36f2941237c8",
+        "name": "Queenradio.net",
+        "tags": "queen,rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech,english"
+    },
+    {
+        "stationuuid": "94567573-8777-473b-8ab0-09487d84ebef",
+        "name": "Radia CZ - Depeche Mode",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "bfed09a5-8ea4-45f9-916f-e3e5b8f6e4b4",
+        "name": "Rádio 1",
+        "tags": "r&b/urban",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "961001b0-0601-11e8-ae97-52543be04c81",
+        "name": "RADIO 1",
+        "tags": "alternative",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "63b4850c-9a05-11e8-a767-52543be04c81",
+        "name": "Radio 1",
+        "tags": "32 kbps ve formátu aac",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "fcb5cbcf-e658-427c-82f7-a673d765dadb",
+        "name": "Radio 4U",
+        "tags": "retro",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "9d254d7c-0274-49d1-adc7-90d0047f83d6",
+        "name": "Radio 4U .pls",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "4b42896a-5fd7-4f9a-bc35-32d93ef650e3",
+        "name": "Rádio 7",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "4cf99ab0-79f3-45bf-8dca-7fa71002c716",
+        "name": "Rádio 7 32kb",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "938a5577-f0ad-47d1-a256-498e5f857a05",
+        "name": "Rádio Applaus",
+        "tags": "pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "a75c45b5-3783-4038-bd8c-f4fcf8826c8a",
+        "name": "Radio B",
+        "tags": "dance,electro house,electronic,electronic dance music,electronic music,house",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "05af3db3-5b11-483c-b008-07f3fd56df15",
+        "name": "Rádio Beat",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "fd85ae48-f7ae-4e77-91f0-aac9160fcdd4",
+        "name": "Radio Beat",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "961d7ccb-0601-11e8-ae97-52543be04c81",
+        "name": "Radio Beat",
+        "tags": "classic rock,heavy metal,metal,rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "c80ec3dc-15ca-4b52-8dcd-c03efa77c95c",
+        "name": "Rádio Beat (128 AAC)",
+        "tags": "classic rock,rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "48b6108e-3cf5-4985-843f-25a5380a494a",
+        "name": "Radio Beat 128 MP3",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "5f7c90af-32b5-4c04-8af9-d07642a73250",
+        "name": "Rádio Blaník",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "964e8c15-0601-11e8-ae97-52543be04c81",
+        "name": "Rádio Blaník CZ Webové rádio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "75700bcd-72d7-4398-9e20-df1e9633adcc",
+        "name": "Radio Blaník Morava a Slezsko ",
+        "tags": "pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "3107a066-eebd-4dcf-834c-eaa3ab106354",
+        "name": "Rádio Blaník Oldies",
+        "tags": "oldies",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "960ec4c7-0601-11e8-ae97-52543be04c81",
+        "name": "Rádio Blaník živé",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "0b03c88e-42c4-43fc-884b-f2db4421fc92",
+        "name": "Rádio Bonton",
+        "tags": "klídek,pohoda,relax",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "84e39c40-439c-4b6b-911a-5f5086722434",
+        "name": "Radio Budweis",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "d8b251be-d16e-4aef-ab1b-21f054d0445b",
+        "name": "Radio Cas",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "7bd36bea-3d4f-43cc-8ff1-28ad8e4d24a6",
+        "name": "Radio Čas",
+        "tags": "oldies,pop,regional",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "298d3e94-dd4b-4dbd-b336-2d7b631b1d79",
+        "name": "Radio Cas Rock",
+        "tags": "classic rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "8214fbd9-51be-4222-b9a6-47aa0c6c71a0",
+        "name": "Radio Cas Rock",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "9641d770-0601-11e8-ae97-52543be04c81",
+        "name": "Radio Čas Rock",
+        "tags": "rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "f65738f3-ddd7-49fc-bf72-15a1ad472338",
+        "name": "Rádio Čas Rock (192 kbps)",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "960c7093-0601-11e8-ae97-52543be04c81",
+        "name": "Radio City FM",
+        "tags": "pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "ca2f254a-1908-42a7-aefc-85e7a0984b2c",
+        "name": "Rádio Click & Country",
+        "tags": "country",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "efa3e338-a148-11e9-a787-52543be04c81",
+        "name": "Rádio Dálnice",
+        "tags": "adult contemporary,hits,traffic",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "fd23d4ea-4bc3-4398-aa71-050cee899d1e",
+        "name": "Radio Dechovka",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "961d4f6c-0601-11e8-ae97-52543be04c81",
+        "name": "Radio Dechovka 1233 Stredni Vlny",
+        "tags": "czech folk music",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "961d4a91-0601-11e8-ae97-52543be04c81",
+        "name": "Radio Depeche Mode",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "d28e2fc3-2b9e-4a56-a34c-ef139a9dffce",
+        "name": "Rádio Diana – Retro Club",
+        "tags": "90's",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "331ab90c-d68c-4b02-affa-a3bfe824dd87",
+        "name": "Radio Dixie",
+        "tags": "rock,southern rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech,english"
+    },
+    {
+        "stationuuid": "2535874c-2eeb-4b42-a275-76e05c9dd716",
+        "name": "Rádio Dráťák",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "27e1f1e4-7857-4ddf-bbb8-0604234c08e4",
+        "name": "Rádio Energic",
+        "tags": "contemporary hits radio",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "962eaa9e-0601-11e8-ae97-52543be04c81",
+        "name": "Radio Evropa e Lirë (RFE/RL for Kosovo, ch. 16)",
+        "tags": "news,prague,rfe-rl",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "albanian"
+    },
+    {
+        "stationuuid": "2111400a-69b3-4302-bee9-a80460b57bfd",
+        "name": "Radio Folk",
+        "tags": "czech folk music,folk",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "00a169e2-99be-4eb5-88f6-e32960718882",
+        "name": "Rádio folk Czech ",
+        "tags": "folk",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "6726334b-7ec2-49af-aa11-3ad83a2bbbb9",
+        "name": "Rádio Hády",
+        "tags": "hits,pop music",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "1c2591b7-7f69-4144-a366-8e4c87f947a1",
+        "name": "Radio Helax",
+        "tags": "pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "960ec633-0601-11e8-ae97-52543be04c81",
+        "name": "Radio Humor",
+        "tags": "humor",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "5c65222f-7623-4cda-8d02-110b1dd35b18",
+        "name": "Rádio humor 2",
+        "tags": "humor",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "308030ee-8c31-4ce7-99f4-88179811cbb9",
+        "name": "Rádio Jih",
+        "tags": "pop music",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "281c9866-2b6d-47ed-840e-49055f6d94c8",
+        "name": "Rádio Jih",
+        "tags": "pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "2577a021-2392-4baa-8f6c-bcdefeab7957",
+        "name": "Radio JIH Cimbalka",
+        "tags": "folk music",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "962b184b-0601-11e8-ae97-52543be04c81",
+        "name": "Rádio Junior",
+        "tags": "children,public radio,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "2f6e1b51-69d4-4280-ab8d-ab9f8dc75530",
+        "name": "Rádio Junior",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "72fd7498-b41e-448d-9f1a-b8a00e3b8ca8",
+        "name": "Radio Kiss",
+        "tags": "pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "5275df88-4198-4524-acf3-abc564737131",
+        "name": "Radio Krokodyl",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "961e622e-0601-11e8-ae97-52543be04c81",
+        "name": "Radio Krokodyl",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "ccc6b59f-e9bb-4373-9f29-eeecf4c98342",
+        "name": "Rádio MB",
+        "tags": "oldies,pop music",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "514690b1-e043-402b-b257-780097e4e5b5",
+        "name": "Rádio Music CZ",
+        "tags": "90s,dance,disco,oldies,pop,talk,weather",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "961e54a9-0601-11e8-ae97-52543be04c81",
+        "name": "Radio Orlicko",
+        "tags": "local music,local news,rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "be44d41e-f9c0-410a-89c2-a5d631377817",
+        "name": "Radio Ostravan",
+        "tags": "variety",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "65beccff-268e-401e-8dda-d8147a398c5a",
+        "name": "Radio Otava",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "česky"
+    },
+    {
+        "stationuuid": "9646c6ce-0601-11e8-ae97-52543be04c81",
+        "name": "Rádio pohádka",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "0873be52-94e4-4584-975f-6acedc00f297",
+        "name": "Radio Ponte records",
+        "tags": "local music,rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech,english"
+    },
+    {
+        "stationuuid": "573c39a8-734d-476c-8f64-df296527dd58",
+        "name": "Radio Prague International",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "ded23118-e7ba-40a6-a104-173959417ebd",
+        "name": "Radio Prague International",
+        "tags": "local news,news",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "english,french"
+    },
+    {
+        "stationuuid": "964f22ad-0601-11e8-ae97-52543be04c81",
+        "name": "Radio Praha",
+        "tags": "public radio,český rozhlas",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "962b436c-0601-11e8-ae97-52543be04c81",
+        "name": "Radio Proglas",
+        "tags": "christian",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "e843dbaf-4021-4594-ba0d-c3e85024954c",
+        "name": "Radio Proglas",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "578a673c-52d4-46bb-94e8-42b4469b55da",
+        "name": "Radio Prostor",
+        "tags": "cultural news,economic news,news talk,sports news,talk & speech",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "5192677e-a070-4b94-b570-d93f1103ca19",
+        "name": "Radio Punctum",
+        "tags": "alternative,ambient,electronic,experimental,house,indie,rap,techno",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "english"
+    },
+    {
+        "stationuuid": "d138985b-253b-431e-b9f3-d16901681424",
+        "name": "Radio R",
+        "tags": "student radio",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "edff4cbe-7e39-44bc-a248-29744cd303ed",
+        "name": "Rádio Relax",
+        "tags": "pop,rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "d7415eb0-4f23-11e9-a4d7-52543be04c81",
+        "name": "Radio ROCK",
+        "tags": "rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "145f24ec-56b3-11e9-aa33-52543be04c81",
+        "name": "Rádio Samson",
+        "tags": "country,folk,rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "a6d008c4-2085-4816-801c-9310f66c4fb0",
+        "name": "Rádio Samson",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "033a539d-41b8-433c-908a-e74edbab1d91",
+        "name": "Rádio Samson",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "5f8ff326-922f-445d-a544-7e73d946da55",
+        "name": "Radio Sázava",
+        "tags": "oldies",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "81deb949-4ceb-4c4a-b99f-435467508a34",
+        "name": "Radio Slobodna Evropa",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "bosnian"
+    },
+    {
+        "stationuuid": "8cdf37a5-303a-4f50-8395-623466abdacb",
+        "name": "Radio SPIN 96.2 FM",
+        "tags": "hiphop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "6b7b627f-20a9-4099-94b5-e4d3d7930fa4",
+        "name": "Radio Svoboda",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "979f5cb0-a052-456d-95e7-48d032aedd00",
+        "name": "Radio Svoboda (ru) (official stream)",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "russian"
+    },
+    {
+        "stationuuid": "22427bf9-3ae6-11ea-8dd7-52543be04c81",
+        "name": "Radio Svoboda Rus",
+        "tags": "news,political talk,rfe,talk",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "russian"
+    },
+    {
+        "stationuuid": "399eab6f-0a81-47ae-b974-2adbfcff6e1c",
+        "name": "Rádio Trojka",
+        "tags": "pop,student radio",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "473e30c0-3a0c-4256-9a80-00ecb20189b0",
+        "name": "Radio Wave",
+        "tags": "alternative,public radio,youth",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "9d87a8ad-edfc-41b3-9ca8-ad2bca01208c",
+        "name": "Radio Wave",
+        "tags": "alternative,public radio,youth",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "f5b421b3-a688-4a60-a2ce-5baf482b4c56",
+        "name": "Rádio Xaver",
+        "tags": "talk show",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "963f98a3-0601-11e8-ae97-52543be04c81",
+        "name": "RADIO.IPIP.CZ: psytrance-radio.cz",
+        "tags": "psytrance",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "a097a164-e995-4925-83ec-823392dbfd98",
+        "name": "RADIO1",
+        "tags": "alternative",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "9a8a6f92-c904-4586-ac23-15ccef1c2c41",
+        "name": "Radio7",
+        "tags": "christian,christmas music",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "d4482e6e-7a01-45b3-addb-a88224d39026",
+        "name": "Radio7",
+        "tags": "christian,christmas music",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "146fc49c-d0eb-4fbb-bc4f-79a772c769e2",
+        "name": "RadioParty.pl",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "f80785d4-ff58-4559-a1ae-b44640ad2348",
+        "name": "RELAX Radio Kladno - 92,3 FM",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "972c61df-830f-4c27-b695-7832d8849c08",
+        "name": "RETRO DJ RADIO - 128",
+        "tags": "00s,80's,90s,dance music,eurodance,millenium,pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "19581fc0-4894-4c6b-92f2-7d0e78ce4442",
+        "name": "RETRO DJ Radio - HQ",
+        "tags": "00s,80s,90s,cz sk,eurodance",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech,polish,slovak,slovenski,česky"
+    },
+    {
+        "stationuuid": "8df13ebd-7e13-45ca-bb52-7ba34f54fb6f",
+        "name": "RETRO DJ RADIO CZ",
+        "tags": "00s,80s,90s,club dance,dance music,dance pop,eurodance",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech,slovak"
+    },
+    {
+        "stationuuid": "38dd84f1-4954-4311-ae11-ba189b528801",
+        "name": "Retro Music Television",
+        "tags": "classic hits,classic rock,oldies,pop classic,retro,rock classics",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech,english"
+    },
+    {
+        "stationuuid": "245b213b-e8c1-496b-a963-450286f216f8",
+        "name": "Retro Music TV",
+        "tags": "pop,retro,tv",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "9649948b-0601-11e8-ae97-52543be04c81",
+        "name": "RFE/RL for North Caucasus, ch. 19",
+        "tags": "news,prague,rfe-rl",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "96494925-0601-11e8-ae97-52543be04c81",
+        "name": "RFE/RL Radio Farda",
+        "tags": "music,news,persian,rfe-rl,talk",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "persian"
+    },
+    {
+        "stationuuid": "1961d0d5-e080-43ad-bf48-7a5e8424f6fe",
+        "name": "ROCK MAX",
+        "tags": "rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "c15295f4-561f-47a5-8c4f-9bdb40210582",
+        "name": "Rock Radio",
+        "tags": "rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "96209a4c-0601-11e8-ae97-52543be04c81",
+        "name": "Rock Rádio Šumava",
+        "tags": "rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "960e4c91-0601-11e8-ae97-52543be04c81",
+        "name": "Rocková zábava",
+        "tags": "czech rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "c7571cbe-b514-11e9-acb2-52543be04c81",
+        "name": "Rockzone",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "c4ea5162-ed42-47cd-8648-382832620f45",
+        "name": "RockZone 105,9 FM",
+        "tags": "rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "4837625e-7d95-42a1-8f13-3f796568d5f4",
+        "name": "Samson",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "40b96914-89b0-4be1-b043-504043b80b49",
+        "name": "sdbs /-\\ radio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "cz",
+        "language": ""
+    },
+    {
+        "stationuuid": "37dfe4aa-29a2-49f5-88c5-98ea67f13e29",
+        "name": "sdbs /-\\ radio",
+        "tags": "ambient,drone,electronic,experimental,field recording,metal,rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "eb59211d-4643-4b66-be2f-9d4be3948963",
+        "name": "SeeJay Radio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "40b1f7b6-93da-4187-9f4b-76b1a9ba8f1c",
+        "name": "SeeJay Radio",
+        "tags": "dance",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "bc95343c-2d65-11ea-aa0c-52543be04c81",
+        "name": "Signál Rádio",
+        "tags": "oldies,pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "fc58b020-2d65-11ea-aa0c-52543be04c81",
+        "name": "Signál Rádio Brno",
+        "tags": "oldies,pop",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "0d96bce2-55dd-4099-8e5a-f42653409406",
+        "name": "SKYROCK",
+        "tags": "czech rock,rock",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "94850cb6-4bcd-11e8-a4d1-52543be04c81",
+        "name": "svobodne-radio",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "014a73bb-b743-4619-a2b5-103a333022ac",
+        "name": "Svobodný vysílač",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "c6dbc068-03f6-486e-bf74-bbd13c75d1c2",
+        "name": "Svobodný vysílač",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "58516b44-c4e2-41d9-9575-bf65780184bb",
+        "name": "united Czech chillers",
+        "tags": "chillout,downtempo,psychill",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "9991af65-746a-4a1c-a61f-51e5eb19e0a7",
+        "name": "We House Radio (AAC+ High)",
+        "tags": "funky house,house,jackin house,nu-disco,soulful house,tech house",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "english"
+    },
+    {
+        "stationuuid": "c9b32b22-7823-11e9-aa30-52543be04c81",
+        "name": "WebRadio Epigon",
+        "tags": "cz sk,czech rock,metal,rock,student radio",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "1eb41dea-3db4-4b65-ba14-6d97b999842a",
+        "name": "WeHouseRadio",
+        "tags": "funky house,house,jackin house,nu-disco,soulful house,tech house",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "english"
+    },
+    {
+        "stationuuid": "c47820b3-e0ec-49f6-b51b-d88b604e1d2b",
+        "name": "WeHouseRadio",
+        "tags": "funky house,house,jackin house,nu-disco,soulful house,tech house",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "english"
+    },
+    {
+        "stationuuid": "c79485f1-013e-46ec-a2ef-8eb3cef2d6dd",
+        "name": "Známka Punku",
+        "tags": "punk",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "czech"
+    },
+    {
+        "stationuuid": "e24d6fd1-3c8f-4e18-b898-cd3fd29dde55",
+        "name": "Zoner Underground Network",
+        "tags": "deep house,house",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "1356ea65-53cd-4079-ba71-6bfcf88e1487",
+        "name": "ZX Music Radio",
+        "tags": "chiptune,chiptunes,electronic",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "d42aaac3-9f48-4d5e-b8ea-7c23f40970f3",
+        "name": "ZX Music Radio",
+        "tags": "chiptune,demoscene",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": ""
+    },
+    {
+        "stationuuid": "96496640-0601-11e8-ae97-52543be04c81",
+        "name": "Азат Еуропа / Азаттық Радиосы (RFE/RL in Kazakh, ch. 11)",
+        "tags": "news,prague,rfe-rl",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "kazakh"
+    },
+    {
+        "stationuuid": "96498eb5-0601-11e8-ae97-52543be04c81",
+        "name": "Азаттык Υналгысы (RFE/RL in Kyrgyz, ch. 1)",
+        "tags": "news,prague,rfe-rl",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "kyrgyz"
+    },
+    {
+        "stationuuid": "fbc0f7d3-49e6-4dbb-b768-c4a4318be7ee",
+        "name": "Крым Реалии (rus, ukr) (official stream)",
+        "tags": "",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "russian,ukrainian"
+    },
+    {
+        "stationuuid": "d3bd0cbb-993e-4673-81b4-d74f6cc498e7",
+        "name": "Крым.Реалии",
+        "tags": "news,news talk,talk",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "russian,ukrainian"
+    },
+    {
+        "stationuuid": "96499132-0601-11e8-ae97-52543be04c81",
+        "name": "Озодлик радиоси (RFE/RL in Uzbek, ch. 13)",
+        "tags": "news,prague,rfe-rl",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "uzbek"
+    },
+    {
+        "stationuuid": "9d2b7b0b-f0cf-4c32-a1ce-bc6e964a7c1a",
+        "name": "Радио Свобода",
+        "tags": "новости,политика,разговорное",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "язык: русский"
+    },
+    {
+        "stationuuid": "964959cb-0601-11e8-ae97-52543be04c81",
+        "name": "Радио Свобода (Radio Svoboda, RFE/RL Russian, ch. 4)",
+        "tags": "cultural,music,news,prague,rfe-rl,talk",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "russian"
+    },
+    {
+        "stationuuid": "96499204-0601-11e8-ae97-52543be04c81",
+        "name": "Радио Слободна Eвропа (RFE/RL in Macedonian, ch. 14)",
+        "tags": "news,prague,rfe-rl",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "96496715-0601-11e8-ae97-52543be04c81",
+        "name": "Радиои Озодӣ (RFE/RL in Tajik, ch. 9)",
+        "tags": "news,prague,rfe-rl",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "tajik"
+    },
+    {
+        "stationuuid": "96497381-0601-11e8-ae97-52543be04c81",
+        "name": "Радіо Свобода (RFE/RL in Ukrainian, ch. 7)",
+        "tags": "cultural,news,prague,rfe-rl,talk",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "ukrainian"
+    },
+    {
+        "stationuuid": "96428502-0601-11e8-ae97-52543be04c81",
+        "name": "Радыё Свабода (RFE/RL in Belorussian, ch. 10)",
+        "tags": "belarusian news,politics,prague,rfe-rl,talk",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "belarusian"
+    },
+    {
+        "stationuuid": "3b7fc8b5-c929-47ab-b203-ededce877a24",
+        "name": "Свобода",
+        "tags": "news,news talk,talk",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "russian"
+    },
+    {
+        "stationuuid": "96495e4d-0601-11e8-ae97-52543be04c81",
+        "name": "რადიო თავისუფალი ევროპა/რადიო თავისუფლება (RFE/RL in Georgian, ch. 3)",
+        "tags": "news,prague,rfe-rl",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "georgian"
+    },
+    {
+        "stationuuid": "96498f8a-0601-11e8-ae97-52543be04c81",
+        "name": "Ազատություն ռ/կ (RFE/RL in Armenian, ch. 2)",
+        "tags": "news,prague,rfe-rl",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "armenian"
+    },
+    {
+        "stationuuid": "9648cd5e-0601-11e8-ae97-52543be04c81",
+        "name": "ازادي راډیودازادې اروپا راډیو (RFE/RL in Pashto, ch. 17)",
+        "tags": "news,prague,rfe-rl",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "pashto"
+    },
+    {
+        "stationuuid": "96499573-0601-11e8-ae97-52543be04c81",
+        "name": "مشال راډیو (RFE/RL in Pashto, R. Mashaal, ch. 20)",
+        "tags": "news,prague,rfe-rl",
+        "country": "Czechia",
+        "countrycode": "CZ",
+        "language": "pashto"
+    }
+]

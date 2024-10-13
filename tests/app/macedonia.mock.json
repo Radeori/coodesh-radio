@@ -1,0 +1,306 @@
+[
+    {
+        "stationuuid": "4a33948a-df59-4d0e-8c5e-a9d8e2e45b50",
+        "name": "=KECO=70s ROCK ",
+        "tags": "70s rock",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "engilsh"
+    },
+    {
+        "stationuuid": "fdbb4f77-5983-408e-8c4c-04c98c59a9f6",
+        "name": "=KECO=ROCK BALLADS",
+        "tags": "70s rock ballads",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "engilsh"
+    },
+    {
+        "stationuuid": "55d9b05c-6339-446f-9b98-0a265782822c",
+        "name": "=KECO=ROCK FM ",
+        "tags": "rock music",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "engilsh"
+    },
+    {
+        "stationuuid": "cc590cc5-7126-4c4d-bc5e-6910f784c0fc",
+        "name": "5fm",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "dcbe3bf9-5cee-43a8-aafc-af8dbf3146cc",
+        "name": "5FM Veles",
+        "tags": "hits,pop",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "english,macedonian"
+    },
+    {
+        "stationuuid": "442a3644-15a2-4b2a-a881-720e2124009b",
+        "name": "Antenna 5 Macedonia",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "525ca938-35ab-4ea4-ac3f-af8cd458de2a",
+        "name": "BISER RADIO",
+        "tags": "pop",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "1fbf20aa-2f23-47fa-86ae-6696aca442b1",
+        "name": "Bum Kumanovo",
+        "tags": "international",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "011dbb9a-6337-4966-b604-b3bd92f128bc",
+        "name": "EX-YU Stil Trap",
+        "tags": "ex-yu",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "36b02bfe-a94d-4c8d-9b7c-9a3fd570dc8a",
+        "name": "Hits Sky Radio 102.5 FM Macedonia (MP3 128 kbps)",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "69e00e1b-2dd9-432d-b60a-e4a38ad41f41",
+        "name": "Jazz FM",
+        "tags": "jazz",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "24075e72-a24c-4baf-a9e2-eaf6c788a4e1",
+        "name": "Just Music Radio",
+        "tags": "blues,disco,funk,funky,fusion,jazz,lounge,smooth jazz,soul",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "english,macedonian"
+    },
+    {
+        "stationuuid": "96152e10-0601-11e8-ae97-52543be04c81",
+        "name": "Kanal 103",
+        "tags": "alternative,dance,electronic,freeform,indie,pop rock,underground",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "884b8ccd-d770-4f9a-a504-126c99829b47",
+        "name": "Lider FM 107,4",
+        "tags": "fm radio station,liderfm,public radio",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "e3786c69-0f8f-11ea-a87e-52543be04c81",
+        "name": "Life Radio",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "english,macedonian"
+    },
+    {
+        "stationuuid": "1e252db7-19c5-4b13-95d0-8571c3d1948e",
+        "name": "Life Radio 89.1 Macedonia",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "434f2c63-da2d-4a48-85e9-f7c927122f4d",
+        "name": "Metropolis Radio Network",
+        "tags": "club,electronic,pop,rock",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "0a24ab05-26e9-4410-bb07-82b70cf0b8ec",
+        "name": "ORO RADIO",
+        "tags": "alternative,classical,disco,electronic,funk,hip-hop,indie,jazz,macedonian,rock,techno,world",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "english/,macedonian"
+    },
+    {
+        "stationuuid": "9328b039-eae7-4bbd-8bbd-3d17502e73fd",
+        "name": "radio 22",
+        "tags": "pop music,pop rock,rock",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "1b454730-a1ae-4e63-a241-9f3399d0231a",
+        "name": "Radio Bravo Smooth Jazz Mix Radio",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "09e63439-9a84-4017-a456-14ee4f390f61",
+        "name": "Radio Bubamara 105.2 Skopje, Macedonia",
+        "tags": "exyu,macedonian pop,macedonian rock,serbian",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "e8de8dc8-aba2-4d19-9f59-0f1ea7f6b75e",
+        "name": "Radio Fortuna 96.8 Skopje, Macedonia",
+        "tags": "pop",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "e66a2ca4-bb45-4b0e-beff-9bbaa74ddd5b",
+        "name": "Radio G - Gostivar",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "cf5dc407-3f39-4608-ba7d-5cb4ce3235d8",
+        "name": "Radio Kanal 77 Skopje, Macedonia",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "1c759ff8-5a23-11e9-a622-52543be04c81",
+        "name": "Radio Maria Macedonia",
+        "tags": "catholic,religion",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "0bab9059-8fb9-4590-96fe-efebaf99753c",
+        "name": "Radio Meff",
+        "tags": "classical",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "0ae5718d-b914-4c75-94c6-31866087611f",
+        "name": "Radio valandovo ",
+        "tags": "music",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "01119f64-55ad-4491-a974-86835f5347cb",
+        "name": "RadioBar",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "a0aed8e2-f3e1-4bfb-9430-b64d2ba26182",
+        "name": "Retro Sky Radio 102.5 FM Macedonia (MP3 128 kbps)",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "f6a29331-294a-49c0-84f0-4eefb7622964",
+        "name": "SKY FOLK",
+        "tags": "macedonian folk",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "1e764559-cb2b-43a5-b732-ba7340ab12bf",
+        "name": "Sky Radio 102.5 FM Macedonia (MP3 128 kbps)",
+        "tags": "",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "827d54bd-f173-4b66-8e74-86a27ceac61c",
+        "name": "Star Radio (Boemi) Skopje, Macedonia",
+        "tags": "exyu,serbian folk,serbian pop",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "7317f14e-6e43-4b8a-a4b1-b430a0ac0399",
+        "name": "Stil Radio Live Macedonia",
+        "tags": "macedonian,serbian,turbo folk",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "76498941-8bcb-46a1-92f3-03dd42432581",
+        "name": "Time FM Gevgelija",
+        "tags": "music",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": "macedonian"
+    },
+    {
+        "stationuuid": "e35bf37d-523a-4d13-a867-02da3929e23c",
+        "name": "Urban FM 90.8 Skopje",
+        "tags": "pop",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "7fa6ba8e-839e-49be-b80e-bd0ce9f44e04",
+        "name": "Експрес Радио 101.1 Струмица, Македонија",
+        "tags": "pop",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "f622086a-f54e-41d3-b135-9c7d38ab56d6",
+        "name": "Канал 77 Радио Мрежа ",
+        "tags": "pop music",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    },
+    {
+        "stationuuid": "1bb7e1c0-267e-4030-b42c-4322954cd407",
+        "name": "Скај Радио",
+        "tags": "pop",
+        "country": "Republic Of North Macedonia",
+        "countrycode": "MK",
+        "language": ""
+    }
+]

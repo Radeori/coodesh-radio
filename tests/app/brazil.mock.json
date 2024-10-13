@@ -1,0 +1,26 @@
+[
+    {
+        "stationuuid": "d0eddde0-9105-4af6-a61b-9679ed8ba96d",
+        "name": "97 FM Natal",
+        "tags": "arrocha,forró,forró e sertanejo,pisadinha,pop,sertanejo,vaquejada",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese,pt-br"
+    },
+    {
+        "stationuuid": "ca800fc2-ae56-4225-af6d-1465f446ac81",
+        "name": "Rádio Cidade",
+        "tags": "rock",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "pt-br"
+    },
+    {
+        "stationuuid": "5dcde101-8ff7-4750-ba90-125d6de2a666",
+        "name": "Radio Cordeiro de Deus",
+        "tags": "christian-gospel,gospel contemporary,gospel country,gospel dance,gospel evangélica,gospel music,gospel pop,southern gospel,urban gospel",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "pt-br"
+    }
+]

@@ -1,0 +1,802 @@
+[
+    {
+        "stationuuid": "41573edb-8733-472d-a0e7-0d0d373b22fe",
+        "name": "Antena - 102.5 FM - XHES-FM - GRD Multimedia - Chihuahua, Chihuahua",
+        "tags": "102.5 fm,américa,antena,chihuahua,chihuahua city,entretenimiento,español,estación,fm,grd multimedia,hablada,latinoamérica,moi merino,méxico,norteamérica,noticias,noticias en español,noticias locales,noticias nacionales e internacionales,noticias y comentarios,radio,radio hablada,tv",
+        "country": "Mexico",
+        "countrycode": "MX",
+        "language": ""
+    },
+    {
+        "stationuuid": "130f2f04-03b7-4e63-9edb-77c018665189",
+        "name": "Antena - 102.5 FM [Chihuahua, Chihuahua]",
+        "tags": "music,news,talk & speech",
+        "country": "Mexico",
+        "countrycode": "MX",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "5446bdeb-b081-413d-9552-42f1b16048b7",
+        "name": "Antena 1",
+        "tags": "talk & speech",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "b8999692-0fba-4660-8934-c74167efc9e0",
+        "name": "Antena 1  - Porto Alegre",
+        "tags": "",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "fd6b0dc7-1684-4677-8a63-0c28d988c4b0",
+        "name": "Antena 1 - Main",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "b16ffbfa-3dbc-472f-b058-5b9daa21cef7",
+        "name": "Antena 1 (Portugal)",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "0bb91b7b-fd13-487f-b645-87f6d6d7b4d2",
+        "name": "Antena 1 (Portugal)",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "909735da-70e8-4527-b771-52793d9f0086",
+        "name": "Antena 1 (Portugal)",
+        "tags": "live sports,musica,talk & speech",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "dbc018ae-1848-4f26-a677-367011a1f4b2",
+        "name": "Antena 1 (Portugal)",
+        "tags": "portugal,portuguese,sports",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "8267a9f9-e776-4b59-90e5-1179dfe1ad40",
+        "name": "Antena 1 (Portugal)",
+        "tags": "news,sports,talk",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "56e49d2c-13df-430a-a325-37a639c18f10",
+        "name": "Antena 1 91.5 FM",
+        "tags": "entretenimiento,latino,música variada,pop,reggaeton",
+        "country": "Argentina",
+        "countrycode": "AR",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "326c6f7c-08d6-49da-9a4b-a6a634e77e3f",
+        "name": "Antena 1 Açores (Portugal)",
+        "tags": "acores,antena 1,antena 1 açores,azores,açores,local news,noticias,portugal,rdp,rdp açores",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "bf4e9e0e-6b72-46c3-aafe-b57eb8fcfe23",
+        "name": "Antena 1 Fado",
+        "tags": "fado",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "4534dd5f-b22a-11e8-afe1-52543be04c81",
+        "name": "Antena 1 FM 103.7 Rio de Janeiro",
+        "tags": "adult contemporary,lite",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "531fced7-b22b-11e8-afe1-52543be04c81",
+        "name": "Antena 1 FM 94.7 São Paulo",
+        "tags": "adult contemporary,lite",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "29489790-0b8a-47d7-9b9d-630ebd9934fd",
+        "name": "Antena 1 Madeira (Portugal)",
+        "tags": "antena 1 madeira,madeira,news talk,notícias,rdp,rdp madeira,rtp",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "7f194817-28a2-419b-b40d-52c406679b19",
+        "name": "Antena 1 Memória (Portugal)",
+        "tags": "archive,culture,music,oldies,talk",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "1b1e7945-7a9e-4f53-9d41-6ca26781ab8f",
+        "name": "Antena 1 Memória (Portugal)",
+        "tags": "antena 1,antena 1 memoria,rdp,rtp",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "27ba8003-6635-4144-9b40-eb496e2d4120",
+        "name": "Antena 1 Porto Alegre ",
+        "tags": "rock romântico",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "português  brasil"
+    },
+    {
+        "stationuuid": "614fcc1d-460b-4f30-abe2-8eb9037d1470",
+        "name": "Antena 1 radio",
+        "tags": "music,musica,música variada,variado,various",
+        "country": "Argentina",
+        "countrycode": "AR",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "e7599368-1801-11e8-ae97-52543be04c81",
+        "name": "Antena 1 Rio de Janeiro, RJ (ZYD 463, 103,7 MHz FM)",
+        "tags": "adult contemporary,brazilian music,jazz,pop,smooth jazz",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "963fa65f-0601-11e8-ae97-52543be04c81",
+        "name": "Antena 1 São Paulo, SP (ZYD823 94,7 MHz FM) [aac]",
+        "tags": "adult contemporary,jazz,pop,smooth jazz",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "17607eae-7873-4ad6-b3b3-01dbcd44be83",
+        "name": "Antena 1 Vida",
+        "tags": "antena 1,rdp,rtp",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "033bc3a2-10c6-4946-bccf-b738878863cb",
+        "name": "Antena 2 - Main",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "60f9ae91-af89-4a97-980d-5ead2a654c3e",
+        "name": "Antena 2 (AAC)",
+        "tags": "classical",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "20f7728c-1d68-47ba-8f5a-b3627f8354b7",
+        "name": "Antena 2 (AAC)",
+        "tags": "classical",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "abdacbd3-4a0a-452b-8247-cff72abb464e",
+        "name": "Antena 2 (Portugal)",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "bf7a7180-2465-48d2-983c-3bc182ba0c83",
+        "name": "Antena 2 (Portugal)",
+        "tags": "classical",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "005be201-4330-49e0-b827-8cb9a5a12a4a",
+        "name": "Antena 2 (Portugal)",
+        "tags": "classical,culture,music",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "e7c49a9e-9716-49a0-b886-6a541c2919ce",
+        "name": "Antena 2 (Portugal)",
+        "tags": "classical,culture,music",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "736f5597-3451-47f1-b0ac-f32fb0c20d26",
+        "name": "Antena 2 Bogotá 650 AM",
+        "tags": "deportes,entretenimiento,noticias y deportes,radio hablada,sports",
+        "country": "Colombia",
+        "countrycode": "CO",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "7fcf536e-8b48-487a-b892-4655ffeea736",
+        "name": "Antena 2 Cali 1030 AM",
+        "tags": "deportes,noticias y deportes,radio hablada,sports",
+        "country": "Colombia",
+        "countrycode": "CO",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "0b5ba280-1823-4b72-bd01-10e3efb2ac20",
+        "name": "Antena 2 Jazzin (Portugal)",
+        "tags": "jazz",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "4793cb1d-3628-49d8-b71f-77eb59ec4158",
+        "name": "Antena 2 Ópera",
+        "tags": "antena 2,classic,opera,rdp,rtp,ópera",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "1d1e415f-bd1e-4978-879f-cb2398a5f9e2",
+        "name": "Antena 2000",
+        "tags": "2000s,80s,90s,hits,pop en español e inglés",
+        "country": "Spain",
+        "countrycode": "ES",
+        "language": "catalan,spanish"
+    },
+    {
+        "stationuuid": "282ac845-f97c-401b-a5ba-2e2c2a2e0d15",
+        "name": "Antena 3",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "30c9039c-85ca-4c00-80d0-d482ae637e34",
+        "name": "Antena 3 - Main",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "6ee0cdcf-5d4c-4c29-9372-94a853110dec",
+        "name": "Antena 3 (AAC)",
+        "tags": "alternative,pop",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "ba4a59be-3ba1-4461-b9de-f489d605c7ac",
+        "name": "Antena 3 (Portugal)",
+        "tags": "alternative,music",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "070c21d8-f919-4c30-aac3-63de93a0d579",
+        "name": "Antena 3 Madeira (Portugal)",
+        "tags": "antena 1,madeira,music,rdp,rtp",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "2372baf4-797e-4ba6-b124-dad255b8967b",
+        "name": "Antena 8 100.1 FM",
+        "tags": "2000s,2010s,90s,comercială,hits,musica,radio hablada",
+        "country": "Panama",
+        "countrycode": "PA",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "117c4c11-7e46-4587-a7e8-5150964b7884",
+        "name": "Antena 98.9",
+        "tags": "cumbia,musica,música variada,popular,variety",
+        "country": "Argentina",
+        "countrycode": "AR",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "601f355c-81c1-446e-bba8-922384576a93",
+        "name": "Antena Aegina",
+        "tags": "folk,greek",
+        "country": "Greece",
+        "countrycode": "GR",
+        "language": "greek"
+    },
+    {
+        "stationuuid": "963df53e-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Caro",
+        "tags": "music,roquetes",
+        "country": "Spain",
+        "countrycode": "ES",
+        "language": "catalan"
+    },
+    {
+        "stationuuid": "582a1258-11e6-48fd-b024-a457dc08a987",
+        "name": "Antena CEMU",
+        "tags": "music,spoken word",
+        "country": "Spain",
+        "countrycode": "ES",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "e6848a6a-15f9-456c-9573-a7e373309eae",
+        "name": "Antena Cemu Radio 89.2 FM",
+        "tags": "charts,entretenimiento,hits,music,música variada",
+        "country": "Spain",
+        "countrycode": "ES",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "2839b65c-712b-4751-a13d-4e7ada6df3a4",
+        "name": "Antena de los Andes 1520 AM",
+        "tags": "entretenimiento,música variada,radio hablada,variety",
+        "country": "Colombia",
+        "countrycode": "CO",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "195fe5ab-7665-495a-ab1f-cdbd08c0f3c1",
+        "name": "Antena Huelva 97.3 FM",
+        "tags": "información,noticias,radio hablada,variety",
+        "country": "Spain",
+        "countrycode": "ES",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "b087798d-8bce-4651-90a4-3d6ced1db095",
+        "name": "Antena Krusevac",
+        "tags": "",
+        "country": "Serbia",
+        "countrycode": "RS",
+        "language": "serbian"
+    },
+    {
+        "stationuuid": "61af0dc5-231f-4a47-8046-1c5d3d7581b8",
+        "name": "antena libre 89.1 argentina universidad conahue",
+        "tags": "comunitaria,noticias,universitaria",
+        "country": "Argentina",
+        "countrycode": "AR",
+        "language": "español argentina"
+    },
+    {
+        "stationuuid": "aa65f6f6-f27e-4f58-9628-3c577fabc511",
+        "name": "Antena Libre 89.1 FM",
+        "tags": "alternative,noncomercial,radio comunitaria,radio hablada",
+        "country": "Argentina",
+        "countrycode": "AR",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "960bcef5-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Livre",
+        "tags": "local music",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "4b323f8e-cb0b-4db6-8c28-21269186e25a",
+        "name": "Antena Livre de Gouveia",
+        "tags": "",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": ""
+    },
+    {
+        "stationuuid": "961f1075-0601-11e8-ae97-52543be04c81",
+        "name": "Antena M",
+        "tags": "",
+        "country": "Montenegro",
+        "countrycode": "ME",
+        "language": ""
+    },
+    {
+        "stationuuid": "6d3bb4cf-98ae-4c24-b2d7-819744af70fe",
+        "name": "Antena Nueve 94.3 FM",
+        "tags": "entretenimiento,hits,latino,musica variada",
+        "country": "Argentina",
+        "countrycode": "AR",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "964f3705-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Radio Bor",
+        "tags": "local programming",
+        "country": "Serbia",
+        "countrycode": "RS",
+        "language": "serbian"
+    },
+    {
+        "stationuuid": "9609ebda-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Radio Kruševac",
+        "tags": "folk,local programming",
+        "country": "Serbia",
+        "countrycode": "RS",
+        "language": ""
+    },
+    {
+        "stationuuid": "08963e11-87c0-4a7b-8c05-4eb2321f29ef",
+        "name": "Antena Radio, Jelah Tešanj",
+        "tags": "",
+        "country": "Bosnia And Herzegovina",
+        "countrycode": "BA",
+        "language": "bosnian"
+    },
+    {
+        "stationuuid": "4364e4c4-5520-4615-9027-9033a534c7b6",
+        "name": "Antena Rio ",
+        "tags": "clássica,dance,music,rock,romântica etc...",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "português (br)"
+    },
+    {
+        "stationuuid": "95dedeff-9b05-4351-afef-aebcb8ff530f",
+        "name": "Antena Rio ",
+        "tags": "",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese"
+    },
+    {
+        "stationuuid": "6c97234e-16ba-438a-a7f4-fb1018cd94c5",
+        "name": "Antena Sarajevo",
+        "tags": "",
+        "country": "Bosnia And Herzegovina",
+        "countrycode": "BA",
+        "language": "bosnian"
+    },
+    {
+        "stationuuid": "960e8eb0-0601-11e8-ae97-52543be04c81",
+        "name": "Antena satelor",
+        "tags": "information,muzica,viata satului",
+        "country": "Romania",
+        "countrycode": "RO",
+        "language": "romanian"
+    },
+    {
+        "stationuuid": "9f42cff5-57cd-11ea-be63-52543be04c81",
+        "name": "antena satelor",
+        "tags": "",
+        "country": "",
+        "countrycode": "",
+        "language": ""
+    },
+    {
+        "stationuuid": "a01c9cc6-1209-43b1-bae8-15a70a3caf27",
+        "name": "Antena Satelor",
+        "tags": "",
+        "country": "Romania",
+        "countrycode": "RO",
+        "language": ""
+    },
+    {
+        "stationuuid": "34318401-7918-4516-a7cd-660d2cd3abc3",
+        "name": "Antena Sur 90.3 FM",
+        "tags": "entretenimiento,folclor,música andina,radio hablada",
+        "country": "Peru",
+        "countrycode": "PE",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "d19acfd2-9cd1-49ab-a8eb-1003b2233e25",
+        "name": "Antena Uno 90.5",
+        "tags": "classic rock,country rock,noticias,rock,rock & roll",
+        "country": "Ecuador",
+        "countrycode": "EC",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "e3e567ef-f3a6-43ab-b933-d3cf54f5bccb",
+        "name": "Antena Uno 92.3FM Posadas",
+        "tags": "entretenimiento,musica,noticias,radio hablada,variety",
+        "country": "Argentina",
+        "countrycode": "AR",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "a0a53101-7ce3-4a69-aa5c-cac3cef968cd",
+        "name": "Antena Zagreb - Live",
+        "tags": "croatian,pop,rock",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "87cbef7f-cf3b-430a-8ee5-1b2223468bfa",
+        "name": "Antena Zagreb - Xmas",
+        "tags": "christmas music,xmas",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "9626d18e-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Zagreb Dance",
+        "tags": "",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "9625ab4e-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Zagreb Hit",
+        "tags": "",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "9626f758-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Zagreb Love",
+        "tags": "",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "9626f5b0-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Zagreb Rock",
+        "tags": "classic rock,zagreb",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "961fce21-0601-11e8-ae97-52543be04c81",
+        "name": "Antena Zagreb Uživo",
+        "tags": "",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "79bcec97-6d62-45c6-a861-85463c32f864",
+        "name": "Antena ZG",
+        "tags": "pop,rock",
+        "country": "Croatia",
+        "countrycode": "HR",
+        "language": "croatian"
+    },
+    {
+        "stationuuid": "fdfc050b-71c8-4c16-9ec3-c91fedf62ae7",
+        "name": "antena1",
+        "tags": "",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "português (brasil)"
+    },
+    {
+        "stationuuid": "a4282d30-0f30-4f33-b276-6bb675543b7c",
+        "name": "antenAZero",
+        "tags": "",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese"
+    },
+    {
+        "stationuuid": "194d4d7e-3447-11e8-bb9b-52543be04c81",
+        "name": "LAC Luanda Antena Comercial (95.5 MHz FM, Luanda)",
+        "tags": "local news,local talk,music,news radio,talk radio,variety",
+        "country": "Angola",
+        "countrycode": "AO",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "6c491004-2474-11e8-91bf-52543be04c81",
+        "name": "Radio Antena",
+        "tags": "pop,top 40",
+        "country": "Slovenia",
+        "countrycode": "SI",
+        "language": "slovenian"
+    },
+    {
+        "stationuuid": "a15095f9-f59a-497d-b0ba-36c247d1814a",
+        "name": "Radio Antena",
+        "tags": "izvorna",
+        "country": "Serbia",
+        "countrycode": "RS",
+        "language": "serbian"
+    },
+    {
+        "stationuuid": "05fc6e55-9b78-4801-931a-5fac1c3e3a99",
+        "name": "Radio Antena (105.2MHz)",
+        "tags": "mix,pop,rock,song hits",
+        "country": "Slovenia",
+        "countrycode": "SI",
+        "language": "slovenian,slovenski"
+    },
+    {
+        "stationuuid": "c2602790-b67a-48ef-9954-6a3a9e18d8d0",
+        "name": "Rádio Antena 1",
+        "tags": "fado,news,noticias,pop,publica",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "cf6f7bd1-8b36-4d59-9dd8-30143248fd81",
+        "name": "Rádio Antena 1 107.5 FM",
+        "tags": "adult",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "1264c0bb-a2c3-41d2-8c47-903e91539802",
+        "name": "Rádio Antena 1 88.3 FM",
+        "tags": "adult,classic hip hop,flashback",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "570cc99a-9159-4d91-9a8f-96ddb5b30797",
+        "name": "Rádio Antena 1 94.7 FM",
+        "tags": "adult,flashback",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "22b186c8-7afc-439c-af03-15ae488553c6",
+        "name": "Rádio Antena 1 Vitória",
+        "tags": "hits",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese"
+    },
+    {
+        "stationuuid": "9d3cfaac-5c9a-11e9-a622-52543be04c81",
+        "name": "Radio Antena 3 91.7 FM",
+        "tags": "commercial,latin,music,musica,musica latina,news,noticias,reggaeton,salsa",
+        "country": "Ecuador",
+        "countrycode": "EC",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "f364e6b9-f360-4e18-b801-a62218155484",
+        "name": "Radio Antena 5 Cusco 1600 AM (más que una Radio !)",
+        "tags": "clasicos,cultural,entretenimiento,música en español e inglés,radio hablada,rock,rock en español",
+        "country": "Peru",
+        "countrycode": "PE",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "961a0e1c-0601-11e8-ae97-52543be04c81",
+        "name": "Radio Antena Braşovului",
+        "tags": "antena braşovului,braşov,romania",
+        "country": "Romania",
+        "countrycode": "RO",
+        "language": "romanian"
+    },
+    {
+        "stationuuid": "961987df-0601-11e8-ae97-52543be04c81",
+        "name": "Rádio Antena Livre",
+        "tags": "adult contemporary,local music,pop,top 40",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "96193484-0601-11e8-ae97-52543be04c81",
+        "name": "Rádio Antena Minho",
+        "tags": "news,sport,world music",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "dbd2c8ed-498a-4470-9e30-e0e1adb7dc6f",
+        "name": "Rádio Antena Nove",
+        "tags": "hits,local news,pop",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "9c79178b-e627-450c-9d66-57cf496b57a9",
+        "name": "Rádio Antena Rio ",
+        "tags": "dance rock classic",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portugues do braasil"
+    },
+    {
+        "stationuuid": "0d89d0f4-2b86-4e6c-b4a7-6aded1397302",
+        "name": "Rádio Antena Rio ",
+        "tags": "dance rock classic",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portugues do braasil"
+    },
+    {
+        "stationuuid": "b0a0eb2e-a907-4800-9e67-e58ea881300b",
+        "name": "Radio Antena Satelor",
+        "tags": "",
+        "country": "Romania",
+        "countrycode": "RO",
+        "language": ""
+    },
+    {
+        "stationuuid": "06dbca35-b046-49a0-ba41-7941ed291af1",
+        "name": "RADIO ANTENA SUR 89.5FM (LA SEñAL DE ORO DESDE PONCE ENRIQUEZ(",
+        "tags": "cumbia,folclor,musica andina,popular",
+        "country": "Ecuador",
+        "countrycode": "EC",
+        "language": "spanish"
+    },
+    {
+        "stationuuid": "80a56515-a3d8-4e77-95a0-e88962dc0843",
+        "name": "Rádio Moçambique Antena Nacional",
+        "tags": "news",
+        "country": "Mozambique",
+        "countrycode": "MZ",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "fb79df08-63e1-4ac2-9b17-3c7861db4248",
+        "name": "RCN Antena 2 La Cariñosa Cartagena",
+        "tags": "folk,public affairs,vallenato",
+        "country": "Colombia",
+        "countrycode": "CO",
+        "language": ""
+    },
+    {
+        "stationuuid": "701e5bbd-5384-468a-a564-179de50e5544",
+        "name": "ROMÂNIA  Antena Satelor",
+        "tags": "music,muzică populară,national,news",
+        "country": "Romania",
+        "countrycode": "RO",
+        "language": "romania"
+    },
+    {
+        "stationuuid": "1aa67c97-6108-4085-871b-28e589644de8",
+        "name": "RTP Antena 2",
+        "tags": "classical",
+        "country": "Portugal",
+        "countrycode": "PT",
+        "language": "portuguese"
+    }
+]

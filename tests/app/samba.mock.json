@@ -1,0 +1,178 @@
+[
+    {
+        "stationuuid": "d794a9e7-1acf-40b6-a34f-8308212e11f8",
+        "name": "Rádio Notícia 88,9 FM Americana SP",
+        "tags": "musica",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "hits,samba e pagode"
+    },
+    {
+        "stationuuid": "085fb651-592e-426f-8fd7-cbc968d2d08c",
+        "name": "101.9 Radio Educativa - Campinas",
+        "tags": "pop & samba - antigas",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "f3e828d4-b532-4ae7-8877-cdd69ada7f27",
+        "name": "105 FM - SP",
+        "tags": "pagode,rap,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "3998f9ae-ed80-4319-8109-0acb29efb256",
+        "name": "BH FM 102,1 MHz ZYC690 (Belo Horizonte - MG)",
+        "tags": "funk,internacional,nacional,pagode,pop,samba,sertanejo",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese"
+    },
+    {
+        "stationuuid": "2553f86a-83db-4f3f-acee-e91dfd026a54",
+        "name": "Bossa Beyond (Special) ",
+        "tags": "bossa nova,mpb,samba",
+        "country": "The United States Of America",
+        "countrycode": "US",
+        "language": "brazilian portuguese,english"
+    },
+    {
+        "stationuuid": "2784dd11-fa5a-450e-93a6-6d246504c8ee",
+        "name": "Breaking Bass Air",
+        "tags": "atmospheric,darkstep,dnb,dram&bass,drumandbass,hardstep,intelligent,jazzstep,jumpup,jungle,liquid,neurofunk,sambass,techstep",
+        "country": "The Russian Federation",
+        "countrycode": "RU",
+        "language": "russian"
+    },
+    {
+        "stationuuid": "7e1c7041-c288-4f9a-b859-1a461cf728dc",
+        "name": "Clube FM 96,5 MHz ZYC692 (Belo Horizonte - MG)",
+        "tags": "internacional,nacional,samba,sertanejo",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese"
+    },
+    {
+        "stationuuid": "add6cef5-d892-4248-b542-f981f2d97665",
+        "name": "Eldorado FM",
+        "tags": "pagode,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese"
+    },
+    {
+        "stationuuid": "963d00c1-0601-11e8-ae97-52543be04c81",
+        "name": "Klassik Radio - Brazil",
+        "tags": "bossa nova,latin,samba",
+        "country": "Germany",
+        "countrycode": "DE",
+        "language": "german"
+    },
+    {
+        "stationuuid": "d2df9d62-a851-4ef7-a6fa-c122546d78df",
+        "name": "La Clave Stereo 93.6",
+        "tags": "musica latinoamericana,música latina,salsa,samba",
+        "country": "Spain",
+        "countrycode": "ES",
+        "language": "espaňol"
+    },
+    {
+        "stationuuid": "e49351ef-ae39-11e8-aa67-52543be04c81",
+        "name": "Radio Art - Bossa Nova",
+        "tags": "bossa nova,brazilian jazz,brazilian music,samba",
+        "country": "Greece",
+        "countrycode": "GR",
+        "language": "english"
+    },
+    {
+        "stationuuid": "f5a792cd-ad3a-47d8-97d4-f9e3d7817303",
+        "name": "Rádio Band 106.7 FM",
+        "tags": "pagode,popular,samba,sertanejo",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "f50d93d5-590c-11e8-b0ce-52543be04c81",
+        "name": "Rádio Batuta MPB - A webradio do Instituto Moreira Salles",
+        "tags": "brazilian music,mpb,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "portuguese"
+    },
+    {
+        "stationuuid": "278b8960-e75d-45f5-92a4-d17fda26de3e",
+        "name": "Rádio Brasil Atual",
+        "tags": "bossa nova,brazilian music,left wing,mpb,news,political talk,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese"
+    },
+    {
+        "stationuuid": "26b39e49-697a-4e16-81b8-14af7349a70d",
+        "name": "Radio Pagode Brasil",
+        "tags": "pagode,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese,portuguese"
+    },
+    {
+        "stationuuid": "c2a27941-02cd-4e43-a29c-b91ad0eb6179",
+        "name": "Radio Paredão PAGODAO",
+        "tags": "bahia,brasil,pagodao,pagode,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese,portuguese"
+    },
+    {
+        "stationuuid": "61f80a1f-bccf-4bfd-9938-da11a22181cb",
+        "name": "Radio Regenbogen Sommerhits",
+        "tags": "dance,latin,reggae,rumba,salsa,samba",
+        "country": "Germany",
+        "countrycode": "DE",
+        "language": "german"
+    },
+    {
+        "stationuuid": "3e55720e-f8dc-4633-8076-d6f0d5ad7203",
+        "name": "Rádio Saudades",
+        "tags": "flashback,pop,samba,sertanejo",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese,portuguese"
+    },
+    {
+        "stationuuid": "63a58962-2491-46b3-a813-c7751510e4d0",
+        "name": "Rádio Senado (Brasília)",
+        "tags": "local government,mpb,news,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "brazilian portuguese,portuguese"
+    },
+    {
+        "stationuuid": "e9ac205c-be62-4aac-90ed-ce6a36912615",
+        "name": "Rádio Sound - Pagode",
+        "tags": "brasil,pagode,samba",
+        "country": "Brazil",
+        "countrycode": "BR",
+        "language": "português (brasil)"
+    },
+    {
+        "stationuuid": "edc3097e-07cb-4609-8d19-5617dcecfdc5",
+        "name": "SomaFM Bossa Beyond",
+        "tags": "bossa nova,samba",
+        "country": "The United States Of America",
+        "countrycode": "US",
+        "language": ""
+    },
+    {
+        "stationuuid": "97900b8c-276f-4b16-825b-a8f587b97fa1",
+        "name": "SomaFM Secret Agent",
+        "tags": "downtempo,lounge,samba,sixties",
+        "country": "The United States Of America",
+        "countrycode": "US",
+        "language": ""
+    }
+]
