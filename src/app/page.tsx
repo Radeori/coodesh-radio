@@ -163,6 +163,12 @@ export default function Home() {
         setRadios(data);
         setMaxPages(Math.ceil(data.length/PAGE_LIMIT));
         setPagedRadios(data.slice(0,PAGE_LIMIT));
+        if(data.length === 0){
+          setPageIndex(0);
+        }
+        else{
+          setPageIndex(1);
+        }
       });
     }
     else{
@@ -179,15 +185,22 @@ export default function Home() {
           setRadios(fetchRadios);
           setMaxPages(Math.ceil(fetchRadios.length/PAGE_LIMIT));
           setPagedRadios(fetchRadios.slice(0,PAGE_LIMIT));
+          if(fetchRadios.length === 0){
+            setPageIndex(0);
+          }
+          else{
+            setPageIndex(1);
+          }
         })
       }, 1000);
       return () => clearTimeout(delaySearch);
     }
-    setPageIndex(1);
   },[searchQuery]);
 
   useEffect(() => {
-    setPagedRadios(radios.slice((pageIndex-1)*PAGE_LIMIT,PAGE_LIMIT*pageIndex));
+    if(pageIndex > 0){
+      setPagedRadios(radios.slice((pageIndex-1)*PAGE_LIMIT,PAGE_LIMIT*pageIndex));
+    }
   },[pageIndex]);
 
   useEffect(() => {
