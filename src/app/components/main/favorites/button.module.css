@@ -1,0 +1,22 @@
+.listRadioButton {
+  padding: 0px;
+  margin-top: 5px;
+}
+@media (max-width: 576px) {
+  .listRadioButton {
+    margin-left: 20px;
+    width: fit-content;
+  }
+}
+
+.listRadioIcon {
+  cursor: pointer;
+  color: #000000;
+  font-size: 30px;
+}
+.listRadioIcon:hover {
+  filter: invert(15%);
+}
+.listRadioIcon:active {
+  filter: invert(30%);
+}

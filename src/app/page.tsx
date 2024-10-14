@@ -3,25 +3,42 @@
 import styles from "./page.module.css";
 import { useState, useEffect } from "react";
 
+import Sidebar from "./components/sidebar/sidebar";
+import CloseSidebarButton from "./components/sidebar/menu";
+import SearchForm from "./components/sidebar/search";
+import PagedRadios from "./components/sidebar/radios";
+
+import OpenSidebarButton from "./components/main/search-button";
+import PlayingRadio from "./components/main/play-radio";
+
+import Radio from "./components/main/favorites/radio";
+import RadioFavicon from "./components/main/favorites/favicon";
+import EditableFields from "./components/main/favorites/form/form";
+import EditButton from "./components/main/favorites/edit";
+import RemoveButton from "./components/main/favorites/remove";
+
 export default function Home() {
-  const [favoritesLoaded, setFavoritesLoaded] = useState(false);
+  const [sidebarVisible, setSidebarVisible] = useState(true);
+
   const [radios, setRadios] = useState([]);
   const [pagedRadios, setPagedRadios] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const PAGE_LIMIT = 10;
+  const [pageIndex, setPageIndex] = useState(1);
+  const [maxPages, setMaxPages] = useState(1);
+
+  const [favoritesLoaded, setFavoritesLoaded] = useState(false);
   const [favorites, setFavorites] = useState([]);
-  const [radioHover, setRadioHover] = useState("");
+
   const [playingRadio, setPlayingRadio] = useState(null);
+  const [playingAudio, setPlayingAudio] = useState(null);
+
+  const [radioHover, setRadioHover] = useState("");
   const [editingRadio, setEditingRadio] = useState(null);
   const [editingName, setEditingName] = useState(null);
   const [editingTags, setEditingTags] = useState(null);
   const [editingInputs, setEditingInputs] = useState(null);
-  const [playingAudio, setPlayingAudio] = useState(null);
-  const [sidebarVisible, setSidebarVisible] = useState(true);
-  const [searchHover, setSearchHover] = useState(false);
-  const [searchActive, setSearchActive] = useState(false);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [pageIndex, setPageIndex] = useState(1);
-  const [maxPages, setMaxPages] = useState(1);
-  const PAGE_LIMIT = 10;
 
   function toggleRadio(radio){
     let favoritesNow = [...favorites];
@@ -45,34 +62,6 @@ export default function Home() {
   function isHover(radio){
     var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
     return radio.stationuuid === radioHover || width < 576;
-  }
-
-  function showPlay(radio){
-    if(isHover(radio)){
-      if(playingRadio === null || playingRadio.stationuuid !== radio.stationuuid){
-        return true;
-      }
-    }
-    return false;
-  }
-
-  function showStop(radio){
-    if(playingRadio === null){
-      return false;
-    }
-    if(playingRadio.stationuuid === radio.stationuuid){
-      return true;
-    }
-  }
-
-  function hideFavicon(radio){
-    if(isHover(radio)){
-      return true;
-    }
-    if(playingRadio !== null && playingRadio.stationuuid === radio.stationuuid){
-      return true;
-    }
-    return false;
   }
 
   function removeHidden(element){
@@ -115,8 +104,14 @@ export default function Home() {
     }
   }
 
-  function isEditing(radio){
-    return (editingRadio !== null) && (editingRadio.stationuuid === radio.stationuuid);
+  async function tryToPlay(audioToPlay){
+    try{
+      await audioToPlay.play();
+    }
+    catch(error){
+      setPlayingAudio(null);
+      setPlayingRadio(null);
+    }
   }
 
   function mergeRadios(radioSets){
@@ -129,15 +124,47 @@ export default function Home() {
     return finalRadioSet;
   }
 
-  async function tryToPlay(audioToPlay){
-    try{
-      await audioToPlay.play();
+  function handleData(data){
+    setRadios(data);
+    setMaxPages(Math.ceil(data.length/PAGE_LIMIT));
+    setPagedRadios(data.slice(0,PAGE_LIMIT));
+    if(data.length === 0){
+      setPageIndex(0);
     }
-    catch(error){
-      setPlayingAudio(null);
-      setPlayingRadio(null);
+    else{
+      setPageIndex(1);
     }
   }
+
+  useEffect(() => {
+    const baseUri = "https://de1.api.radio-browser.info/json/stations/search?hidebroken=true";
+    if(searchQuery === ""){
+      fetch(baseUri).then((res) => res.json()).then((data) => {
+        handleData(data);
+      });
+    }
+    else{
+      const delaySearch = setTimeout(() => {
+        Promise.all([
+          fetch(baseUri+"&name="+searchQuery).then((res) => res.json()),
+          fetch(baseUri+"&country="+searchQuery).then((res) => res.json()),
+          fetch(baseUri+"&countrycode="+searchQuery).then((res) => res.json()),
+          fetch(baseUri+"&language="+searchQuery).then((res) => res.json()),
+          fetch(baseUri+"&tag="+searchQuery).then((res) => res.json())
+        ])
+        .then((datas) => {
+          handleData(mergeRadios(datas));
+        })
+      }, 1000);
+      return () => clearTimeout(delaySearch);
+    }
+  },[searchQuery]);
+
+  useEffect(() => {
+    if(pageIndex > 0){
+      setPagedRadios(radios.slice((pageIndex-1)*PAGE_LIMIT,PAGE_LIMIT*pageIndex));
+    }
+  },[pageIndex]);
   
   useEffect(() => {
     if(favoritesLoaded){
@@ -157,53 +184,6 @@ export default function Home() {
   },[favorites]);
 
   useEffect(() => {
-    const baseUri = "https://de1.api.radio-browser.info/json/stations/search?hidebroken=true";
-    if(searchQuery === ""){
-      fetch(baseUri).then((res) => res.json()).then((data) => {
-        setRadios(data);
-        setMaxPages(Math.ceil(data.length/PAGE_LIMIT));
-        setPagedRadios(data.slice(0,PAGE_LIMIT));
-        if(data.length === 0){
-          setPageIndex(0);
-        }
-        else{
-          setPageIndex(1);
-        }
-      });
-    }
-    else{
-      const delaySearch = setTimeout(() => {
-        Promise.all([
-          fetch(baseUri+"&name="+searchQuery).then((res) => res.json()),
-          fetch(baseUri+"&country="+searchQuery).then((res) => res.json()),
-          fetch(baseUri+"&countrycode="+searchQuery).then((res) => res.json()),
-          fetch(baseUri+"&language="+searchQuery).then((res) => res.json()),
-          fetch(baseUri+"&tag="+searchQuery).then((res) => res.json())
-        ])
-        .then((datas) => {
-          const fetchRadios = mergeRadios(datas);
-          setRadios(fetchRadios);
-          setMaxPages(Math.ceil(fetchRadios.length/PAGE_LIMIT));
-          setPagedRadios(fetchRadios.slice(0,PAGE_LIMIT));
-          if(fetchRadios.length === 0){
-            setPageIndex(0);
-          }
-          else{
-            setPageIndex(1);
-          }
-        })
-      }, 1000);
-      return () => clearTimeout(delaySearch);
-    }
-  },[searchQuery]);
-
-  useEffect(() => {
-    if(pageIndex > 0){
-      setPagedRadios(radios.slice((pageIndex-1)*PAGE_LIMIT,PAGE_LIMIT*pageIndex));
-    }
-  },[pageIndex]);
-
-  useEffect(() => {
     let localAudio;
     if(playingAudio !== null){
       playingAudio.pause();
@@ -218,117 +198,34 @@ export default function Home() {
   },[playingRadio]);
   
   return (
-    <div className={"container-fluid " + styles.page}>
-      <div className="row">
-        <div className={"col-xs-12 col-sm-3 " + styles.sidebar + (sidebarVisible ? " visible" : " invisible")}>
-          <div className={"nav " + styles.navSidebar + " " + styles.menuNavSidebar}>
-            <div onClick={() => setSidebarVisible(false)} className={styles.menuButton}>
-              <i className={"bi bi-list " + styles.menuIcon}></i>
-            </div>
-          </div>
-          <form onSubmit={(event) => event.preventDefault()} className={"nav navbar-form text-center " + styles.navSidebar}>
-            <div className={"form-group " + styles.searchFormGroup}>
-              <input type="text" onChange={(event) => setSearchQuery(event.target.value)} className={"form-control " + styles.inputSearch} placeholder="Search here" />
-            </div>
-          </form>
-          <ul className={"nav " + styles.navSidebar}>
-            {pagedRadios.map((radio) => (
-              <li key={radio.stationuuid} onClick={()=>toggleRadio(radio)} className={"row " + styles.sidebarRadio}>
-                <span className={"col-xs-10 " + styles.sidebarRadioName}>{radio.name}</span>
-                <i className={"col-xs-2 bi bi-check " + styles.sidebarRadioCheck + (isFavorite(radio) ? " visible" : " invisible")}></i>
-              </li>
-            ))}
-            <li className={"row " + styles.sidebarPagingDiv}>
-              <i onClick={() => setPageIndex(1)} className={"col-xs-2 bi bi-box-arrow-in-left " + styles.sidebarPagingIcon}></i>
-              <i onClick={() => pageIndex > 1 ? setPageIndex(pageIndex-1) : null} className={"col-xs-2 bi bi-arrow-left-short " + styles.sidebarPagingIcon}></i>
-              <span className={"col-xs-4 " + styles.sidebarPagingInfo}>{pageIndex}/{maxPages}</span>
-              <i onClick={() => pageIndex < maxPages ? setPageIndex(pageIndex+1) : null} className={"col-xs-2 bi bi-arrow-right-short " + styles.sidebarPagingIcon}></i>
-              <i onClick={() => setPageIndex(maxPages)} className={"col-xs-2 bi bi-box-arrow-in-right " + styles.sidebarPagingIcon}></i>
-            </li>
-          </ul>
+    <div id="page" className={"container-fluid row " + styles.page}>
+      <Sidebar sidebarVisible={sidebarVisible}>
+        <CloseSidebarButton setSidebarVisible={setSidebarVisible}></CloseSidebarButton>
+        <SearchForm setSearchQuery={setSearchQuery}></SearchForm>
+        <PagedRadios 
+          pagedRadios={pagedRadios} maxPages={maxPages} pageIndex={pageIndex} setPageIndex={setPageIndex} toggleRadio={toggleRadio} isFavorite={isFavorite}>
+        </PagedRadios>
+      </Sidebar>
+      <div className={(sidebarVisible ? "col-xs-12 col-sm-9 col-sm-offset-3 " : "col-sm-12 ") + styles.main}>
+        <h1 className={"page-header " + styles.pageHeader}>Radio Browser</h1>
+        <div className="row">
+          <span className={"col-xs-12 col-sm-6 " + styles.listHeader}>FAVORITE RADIOS</span>
+          <OpenSidebarButton sidebarVisible={sidebarVisible} setSidebarVisible={setSidebarVisible}></OpenSidebarButton>
         </div>
-        <div className={(sidebarVisible ? "col-xs-12 col-sm-9 col-sm-offset-3 " : "col-sm-12 ") + styles.main}>
-          <h1 className={"page-header " + styles.pageHeader}>Radio Browser</h1>
-          <div className="row">
-            <span className={"col-xs-12 col-sm-6 " + styles.listHeader}>FAVORITE RADIOS</span>
-            <div className={"col-sm-6 " + styles.listSearch}>
-              <i
-                onClick={() => setSidebarVisible(true)}
-                onMouseEnter={() => setSearchHover(true)} onMouseLeave={() => {setSearchHover(false);setSearchActive(false)}}
-                onMouseDown={() => setSearchActive(true)} onMouseUp={() => setSearchActive(false)}
-                className={"bi bi-search " + styles.listSearchIcon + (searchHover && !sidebarVisible ? " " + styles.listSearchHover : "") +
-                  (searchActive && !sidebarVisible ? " " + styles.listSearchActive : "")}>
-              </i>
-              <span onClick={() => setSidebarVisible(true)}
-                onMouseEnter={() => setSearchHover(true)} onMouseLeave={() => {setSearchHover(false);setSearchActive(false)}}
-                onMouseDown={() => setSearchActive(true)} onMouseUp={() => setSearchActive(false)}
-                className={"hidden-xs " + styles.listSearchText + (searchHover && !sidebarVisible ? " " + styles.listSearchTextHover : "") +
-                  (searchActive && !sidebarVisible ? " " + styles.listSearchTextActive : "")}>
-                Search stations
-              </span>
-            </div>
-          </div>
-          <ul className={styles.favoriteList + " " + styles.playingRadioDiv}>
-            <li className={styles.listRadio + " " + styles.playingRadio}>
-              <div className="row">
-                <div className={"col-xs-2 " + styles.radioFaviconDiv}>
-                  <i onClick={() => setPlayingRadio(null)} className={"bi bi-stop-fill " + styles.playingRadioStopButton + (playingRadio === null ? " invisible" : " visible")}></i>
-                </div>
-                <div className="col-xs-10 col-xs-offset-2">
-                  <span className={styles.listRadioName}>{playingRadio === null ? "" : playingRadio.name}</span>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <ul id="favoritesDiv" className={styles.favoriteList}>
-            {favorites.map((radio) => (
-              <li onMouseEnter={() => setRadioHover(radio.stationuuid)} onMouseLeave={() => setRadioHover("")} key={radio.stationuuid} className={styles.listRadio}>
-                <div className="row">
-                  <div className={"col-xs-2 " + styles.radioFaviconDiv}>
-                    <img className={styles.listRadioFavicon + (hideFavicon(radio) ? " " + styles.transparentFavicon : "")} src={radio.favicon} />
-                    <i onClick={() => setPlayingRadio(radio)} className={"bi bi-play-fill " + styles.radioPlayButton + (showPlay(radio) ? " visible" : " invisible")}></i>
-                    <i onClick={() => setPlayingRadio(null)} className={"bi bi-stop-fill " + styles.radioStopButton + (showStop(radio) ? " visible" : " invisible")}></i>
-                  </div>
-                  <div className="col-xs-6 col-sm-8">
-                    <form onSubmit={submitEdit}>
-                      <div className="form-group">
-                        <span className={styles.listRadioName + (editingRadio === null || editingRadio.stationuuid !== radio.stationuuid ? "" : " hidden")}>
-                          {radio.name}
-                        </span>
-                        <input type="text" defaultValue={radio.name.trim()}
-                        onChange={(event) => setEditingName(event.target.value)}
-                        onKeyDown={(event) => event.code === "Enter" || event.code === "NumpadEnter" ? submitEdit(event) : null}
-                        onBlur={exitEditingInput}
-                        
-                        className={"form-control " + styles.listRadioName + (editingRadio !== null && radio.stationuuid === editingRadio.stationuuid ? "" : " hidden")}>
-                        </input>
-                        <br/>
-                        <span className={styles.listRadioTags + (editingRadio === null || editingRadio.stationuuid !== radio.stationuuid ? "" : " hidden")}>
-                          {radio.tags.split(",").join(", ")}
-                        </span>
-                        <input type="text" defaultValue={radio.tags}
-                        onChange={(event) => setEditingTags(event.target.value)}
-                        onKeyDown={(event) => event.code === "Enter" || event.code === "NumpadEnter" ? submitEdit(event) : null}
-                        onBlur={exitEditingInput}
-                        className={"form-control " + styles.listRadioTags + (editingRadio !== null && radio.stationuuid === editingRadio.stationuuid ? "" : " hidden")}>
-                        </input>
-                      </div>
-                    </form>
-                  </div>
-                  <div className={"col-xs-2 col-sm-1 " + styles.listRadioButton}>
-                    <i onClick={(event) => startEditingRadio(radio, event.target)}
-                    className={"bi bi-pencil-fill " + styles.listRadioIcon + (isHover(radio) ? " visible" : " invisible") + (isEditing(radio) ? " hidden" : "")}>
-                    </i>
-                    <i className={"bi bi-clipboard-check-fill " + styles.listRadioIcon + (isEditing(radio) ? "" : " hidden")}></i>
-                  </div>
-                  <div className={"col-xs-2 col-sm-1 " + styles.listRadioButton}>
-                    <i onClick={() => toggleRadio(radio)} className={"bi bi-trash3-fill " + styles.listRadioIcon + (isHover(radio) ? " visible" : " invisible")}></i>
-                  </div>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
+        <PlayingRadio playingRadio={playingRadio} setPlayingRadio={setPlayingRadio}></PlayingRadio>
+        <ul id="favoritesDiv" className={styles.favoriteList}>
+          {favorites.map((radio) => (
+            <Radio radio={radio} setRadioHover={setRadioHover}>
+              <RadioFavicon radio={radio} playingRadio={playingRadio} setPlayingRadio={setPlayingRadio} isHover={isHover}></RadioFavicon>
+              <EditableFields radio={radio} editingRadio={editingRadio}
+                setEditingName={setEditingName} setEditingTags={setEditingTags}
+                submitEdit={submitEdit} exitEditingInput={exitEditingInput}>
+              </EditableFields>
+              <EditButton radio={radio} editingRadio={editingRadio} startEditingRadio={startEditingRadio} isHover={isHover}></EditButton>
+              <RemoveButton radio={radio} toggleRadio={toggleRadio} isHover={isHover}></RemoveButton>
+            </Radio>
+          ))}
+        </ul>
       </div>
     </div>
   );

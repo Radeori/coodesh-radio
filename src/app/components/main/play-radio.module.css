@@ -1,0 +1,41 @@
+.radioFaviconDiv {
+  composes: radioFaviconDiv from './favorites/favicon.module.css'
+}
+
+.listRadioName {
+  composes: listRadioName from './favorites/form/name.module.css'
+}
+
+.playingRadioDiv {
+  composes: favoriteList from './../../page.module.css';
+  margin-bottom: 0px;
+  border: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 2px solid #605C5C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.playingRadio {
+  composes: listRadio from './favorites/favorites.module.css';
+  background: inherit;
+  margin-bottom: 0px;
+}
+
+.playingRadioStopButton {
+  position: absolute;
+  top: -25px;
+  right: -5px;
+  cursor: pointer;
+  color: #000000;
+  font-size: 60px;
+}
+
+.playingRadioStopButton:hover {
+  filter: invert(10%);
+}
+.playingRadioStopButton:active {
+  filter: invert(20%);
+}

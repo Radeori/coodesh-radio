@@ -1,0 +1,66 @@
+.navSidebar {
+  composes: navSidebar from './sidebar.module.css'
+}
+
+.sidebarRadio {
+  box-sizing: border-box;
+  background: #4D4D56;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  margin: 10px 10px;
+  min-height: 4em;
+  cursor: pointer;
+  align-content: center;
+}
+.sidebarRadio:hover {
+  filter: brightness(1.5);
+}
+.sidebarRadio:active {
+  filter: brightness(2);
+}
+
+.sidebarRadioName {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  backdrop-filter: blur(2px);
+}
+
+.sidebarRadioCheck {
+  position: absolute;
+  left: calc(100% - 6rem);
+  top: 0%;
+  color: #1267FC;
+  font-size: 42px;;
+}
+
+.sidebarPagingDiv {
+  box-sizing: border-box;
+  min-height: 4em;
+  max-width: 100%;
+  margin: 0px;
+}
+
+.sidebarPagingInfo {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 0.2em 0 0 0;
+  overflow-wrap: normal;
+}
+
+.sidebarPagingIcon {
+  color: #FFFFFF;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  padding: 0px;
+}
+.sidebarPagingIcon:hover {
+  filter: invert(40%);
+}
+.sidebarPagingIcon:active {
+  filter: invert(80%);
+}

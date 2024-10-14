@@ -13,6 +13,7 @@ O presente repositório é um projeto de Rádio Online, em que estações são c
 * [CSS Modules](https://github.com/css-modules/css-modules) - "compilador" de CSS para [ICSS](https://github.com/css-modules/icss)
 * [Bootstrap](https://getbootstrap.com/) - ferramentas de front-end baseadas em [Sass](https://sass-lang.com/) que oferecem interface em grade e componentes
 * [Bootstrap Icons](https://icons.getbootstrap.com/) - biblioteca de ícones
+* [Playwright](https://playwright.dev/) - ferramenta de testes E2E para aplicações Web
 
 ## Como instalar e como utilizar
 ### Como instalar
@@ -31,6 +32,7 @@ npm run dev
     * Confirmação do formulário pode ser feita ao pressionar a tecla Enter ou NumpadEnter, ao tirar a seleção dos campos de texto ou clicar no botão com ícone de prancheta.
 * Seguindo integridade com Bootstrap, padronizou-se que qualquer visualidade ou interatividade própria de aparelhos móveis seria disponibilizada no caso da largura da tela ser inferior a 576px.
 * Julgando o conjunto de dados da API como pequeno, a paginação foi feita localmente, com a possibilidade de pular para a última página a qualquer momento.
+* Utilização da ferramenta Playwright para realização de testes E2E em vez de qualquer outra de testes unitários.
 
 ### Diário de mudanças e decisões
 ### 04/10/2024 - Initial commit (Commit inicial)
@@ -154,3 +156,11 @@ Mantendo a integridade, a versão desktop seguiu a mesma lógica, com diferença
 * Para obter esse total, a única forma cogitada — dado que a função não existe na API — foi capturar todos os registros e realizar a devida conta.
 * Uma vez que o conjunto total de registros já seria pego, decidiu-se por armazená-los em variável local não persistida e fazer a paginação na própria lógica de programação da aplicação.
 * Em posse de todos esses dados, optou-se por adicionar botões de navegação individual pelas páginas, bem como botões de "primeira" e "última", lembrando a interface de reprodutores de áudio.
+
+### 13/10/2024 - Implementados testes E2E
+##### Changelog
+* Adicionados testes para cada uma das funções principais da aplicação
+* Confeccionados mockups para realização dos testes
+##### Decisões
+* Para cumprir o diferencial de implementar testes, optou-se por fazê-los funcionais em vez de unitários. Tal decisão foi motivada principalmente pelo fato de que testes E2E têm mais a ver com desenvolvimento front-end, enquanto unitários são super correlatos com back-end.
+* Sobre a ferramenta de testes, buscou-se as recomendadas para utilizar junto com Next.js e, entre elas, a Playwright foi apresentada como a mais compatível com novos recursos, como server componentes assíncronos.

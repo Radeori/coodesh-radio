@@ -1,0 +1,28 @@
+.navSidebar {
+  composes: navSidebar from './sidebar.module.css'
+}
+
+.menuNavSidebar {
+  overflow: hidden;
+}
+
+.menuButton {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  margin-top: -15px;
+  float: right;
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+.menuButton .menuIcon {
+  color: #1267FC;
+  font-size: 42px;
+}
+.menuIcon:hover {
+  filter: brightness(1.5);
+}
+.menuIcon:active {
+  filter: brightness(2);
+}

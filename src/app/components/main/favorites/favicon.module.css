@@ -1,0 +1,46 @@
+.radioFaviconDiv {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.listRadioFavicon {
+  position: absolute;
+  width: 54px;
+  height: 48px;
+  border-radius: 50px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 3;
+}
+
+.transparentFavicon {
+  opacity: 40%;
+}
+
+.radioPlayButton {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  cursor: pointer;
+  color: #000000;
+  font-size: 50px;
+  z-index: 4;
+}
+
+.radioStopButton {
+  position: absolute;
+  top: -10px;
+  right: -2px;
+  cursor: pointer;
+  color: #000000;
+  font-size: 50px;
+  z-index: 4;
+}
+
+.radioPlayButton:hover, .radioStopButton:hover {
+  filter: invert(10%);
+}
+.radioPlayButton:active, .radioStopButton:active {
+  filter: invert(20%);
+}

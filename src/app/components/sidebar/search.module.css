@@ -1,0 +1,23 @@
+.navSidebar {
+  composes: navSidebar from './sidebar.module.css'
+}
+
+.searchFormGroup {
+  width: calc(30vh + 7vw);
+  max-width: 100%;
+  margin: auto;
+}
+
+.inputSearch {
+  padding: 0px 20px;
+  background: #62626C;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-style: none;
+  border-radius: 10px;
+  width: 100% !important;
+  min-height: 2.5em;
+  color: #FFFFFF;
+}
+.inputSearch::placeholder {
+  color: #FFFFFF;
+}
