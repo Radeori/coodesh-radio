@@ -1,11 +1,10 @@
 import styles from "./button.module.css";
-import { MouseEventHandler } from "react";
-import { CheckRadioState, RadioStation } from "@/types";
+import { CheckRadioState, RadioStation, StartEditingHandler } from "@/types";
 
 interface Arguments{
   radio: RadioStation,
   editingRadio: RadioStation,
-  startEditingRadio: MouseEventHandler,
+  startEditingRadio: StartEditingHandler,
   isHover: CheckRadioState
 }
 
@@ -17,7 +16,7 @@ export default function EditButton({radio, editingRadio, startEditingRadio, isHo
 
   return (
     <div className={"col-xs-2 col-sm-1 " + styles.listRadioButton}>
-      <i onClick={() => startEditingRadio(radio, event.target)}
+      <i onClick={(event) => startEditingRadio(radio, event.target)}
       className={"bi bi-pencil-fill " + styles.listRadioIcon + (isHover(radio) ? " visible" : " invisible") + (isEditing(radio) ? " hidden" : "")}>
       </i>
       <i className={"bi bi-clipboard-check-fill " + styles.listRadioIcon + (isEditing(radio) ? "" : " hidden")}></i>

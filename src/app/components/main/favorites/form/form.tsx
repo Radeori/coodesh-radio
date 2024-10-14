@@ -1,5 +1,4 @@
-import { EventHandler, FocusEventHandler, FormEvent } from "react";
-import { RadioStation, SetStringState } from "@/types";
+import { ExitEditingInput, RadioStation, SetStringState, SubmitEdit } from "@/types";
 import RadioName from "./name";
 import RadioTags from "./tags";
 
@@ -8,8 +7,8 @@ interface Arguments{
   editingRadio: RadioStation,
   setEditingName: SetStringState,
   setEditingTags: SetStringState,
-  submitEdit: EventHandler<FormEvent>,
-  exitEditingInput: FocusEventHandler<HTMLInputElement>
+  submitEdit: SubmitEdit,
+  exitEditingInput: ExitEditingInput
 }
 
 export default function EditableFields({radio, editingRadio, setEditingName, setEditingTags, submitEdit, exitEditingInput}:Arguments){

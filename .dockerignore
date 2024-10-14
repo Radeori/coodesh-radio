@@ -1,0 +1,18 @@
+Dockerfile
+.dockerignore
+node_modules
+npm-debug.log
+README.md
+.next
+docker
+.git
+
+# development
+src/app/favicon.png
+src/app/favicon.xcf
+src/app/favicon_io
+examples
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/

@@ -9,7 +9,7 @@ interface Arguments{
 
 export default function Radio({radio, setRadioHover, children}:Arguments){
   return (
-    <li onMouseEnter={() => setRadioHover(radio.stationuuid)} onMouseLeave={() => setRadioHover("")} key={radio.stationuuid} className={styles.listRadio}>
+    <li key={radio.stationuuid} onMouseEnter={() => setRadioHover(radio.stationuuid)} onMouseLeave={() => setRadioHover("")} className={styles.listRadio}>
       <div className="row">
         {children}
       </div>

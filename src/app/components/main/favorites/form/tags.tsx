@@ -1,13 +1,12 @@
 import styles from "./tags.module.css";
-import { FocusEventHandler, KeyboardEventHandler } from "react";
-import { RadioStation, SetStringState } from "@/types";
+import { ExitEditingInput, RadioStation, SetStringState, SubmitEdit } from "@/types";
 
 interface Arguments{
   radio: RadioStation,
   editingRadio: RadioStation,
   setEditingTags: SetStringState,
-  submitEdit: KeyboardEventHandler,
-  exitEditingInput: FocusEventHandler<HTMLInputElement>
+  submitEdit: SubmitEdit,
+  exitEditingInput: ExitEditingInput
 }
 
 export default function RadioTags({radio, editingRadio, setEditingTags, submitEdit, exitEditingInput}:Arguments) {
@@ -18,8 +17,8 @@ export default function RadioTags({radio, editingRadio, setEditingTags, submitEd
       </span>
       <input type="text" defaultValue={radio.tags}
         onChange={(event: React.FormEvent<HTMLInputElement>) => setEditingTags(event.currentTarget.value)}
-        onKeyDown={(event: React.KeyboardEvent<HTMLDivElement>) => event.code === "Enter" || event.code === "NumpadEnter" ? submitEdit(event) : null}
-        onBlur={exitEditingInput}
+        onKeyDown={(event: React.KeyboardEvent<HTMLDivElement>) => {if(event.code === "Enter" || event.code === "NumpadEnter") submitEdit()}}
+        onBlur={(event) => exitEditingInput(event)}
         className={"form-control " + styles.listRadioTags + (editingRadio !== null && radio.stationuuid === editingRadio.stationuuid ? "" : " hidden")}>
       </input>
     </>
