@@ -1,6 +1,11 @@
 import styles from "./menu.module.css";
+import { SetBooleanState } from "@/types";
 
-export default function CloseSidebarButton({setSidebarVisible}){
+interface Arguments{
+  setSidebarVisible: SetBooleanState
+}
+
+export default function CloseSidebarButton({setSidebarVisible}:Arguments){
   return (
     <div className={"nav " + styles.navSidebar + " " + styles.menuNavSidebar}>
       <div onClick={() => setSidebarVisible(false)} className={styles.menuButton}>

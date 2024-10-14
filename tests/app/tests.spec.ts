@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test';
-import exp from 'constants';
 
 test("wireframe", async ({ page }) => {
   await page.goto('/');

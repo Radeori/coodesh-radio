@@ -1,6 +1,16 @@
 import styles from "./radios.module.css";
+import { CheckRadioState, RadioFunction, RadioStation, SetNumericState } from "@/types";
 
-export default function PagedRadops({pagedRadios, maxPages, pageIndex, setPageIndex, toggleRadio, isFavorite}) {
+interface Arguments{
+  pagedRadios: Array<RadioStation>,
+  maxPages: number,
+  pageIndex: number,
+  setPageIndex: SetNumericState,
+  toggleRadio: RadioFunction,
+  isFavorite: CheckRadioState
+}
+
+export default function PagedRadios({pagedRadios, maxPages, pageIndex, setPageIndex, toggleRadio, isFavorite}:Arguments) {
   return (
     <ul className={"nav " + styles.navSidebar}>
       {pagedRadios.map((radio) => (

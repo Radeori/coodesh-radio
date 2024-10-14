@@ -1,7 +1,15 @@
 import styles from "./favicon.module.css";
+import { CheckRadioState, RadioStation, SetRadioState } from "@/types";
 
-export default function RadioFavicon({radio, playingRadio, setPlayingRadio, isHover}) {
-  function showPlay(radio){
+interface Arguments{
+  radio: RadioStation,
+  playingRadio: RadioStation,
+  setPlayingRadio: SetRadioState,
+  isHover: CheckRadioState
+}
+
+export default function RadioFavicon({radio, playingRadio, setPlayingRadio, isHover}:Arguments) {
+  function showPlay(radio: RadioStation){
     if(isHover(radio)){
       if(playingRadio === null || playingRadio.stationuuid !== radio.stationuuid){
         return true;
@@ -10,7 +18,7 @@ export default function RadioFavicon({radio, playingRadio, setPlayingRadio, isHo
     return false;
   }
 
-  function showStop(radio){
+  function showStop(radio: RadioStation){
     if(playingRadio === null){
       return false;
     }
@@ -19,7 +27,7 @@ export default function RadioFavicon({radio, playingRadio, setPlayingRadio, isHo
     }
   }
 
-  function hideFavicon(radio){
+  function hideFavicon(radio: RadioStation){
     if(isHover(radio)){
       return true;
     }

@@ -1,7 +1,13 @@
 import styles from "./search-button.module.css";
 import { useState } from "react";
+import { SetBooleanState } from "@/types";
 
-export default function OpenSidebarButton({sidebarVisible, setSidebarVisible}) {
+interface Arguments{
+  sidebarVisible: boolean,
+  setSidebarVisible: SetBooleanState
+}
+
+export default function OpenSidebarButton({sidebarVisible, setSidebarVisible}:Arguments) {
   const [searchHover, setSearchHover] = useState(false);
   const [searchActive, setSearchActive] = useState(false);
 

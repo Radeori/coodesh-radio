@@ -1,6 +1,12 @@
 import styles from "./play-radio.module.css";
+import { RadioStation, SetRadioState } from "@/types";
 
-export default function PlayingRadio({playingRadio, setPlayingRadio}) {
+interface Arguments{
+  playingRadio: RadioStation,
+  setPlayingRadio: SetRadioState
+}
+
+export default function PlayingRadio({playingRadio, setPlayingRadio}:Arguments) {
   return (
     <ul className={styles.favoriteList + " " + styles.playingRadioDiv}>
       <li className={styles.listRadio + " " + styles.playingRadio}>
