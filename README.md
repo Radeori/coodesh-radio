@@ -17,9 +17,13 @@ O presente repositório é um projeto de Rádio Online, em que estações são c
 
 ## Como instalar e como utilizar
 ### Como instalar
-npm install
+ * Clone o repositório
+`git clone git@github.com:Radeori/coodesh-radio.git`
+ * Entre no diretório `coodesh-radio` criado e execute
+`npm install`
 ### Como utilizar
-npm run dev
+Estando no diretório base do projeto, execute
+`npm run dev`
 
 ## Documentação do processo criativo de desenvolvimento
 ### Resumo das decisões
